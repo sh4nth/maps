@@ -75,8 +75,6 @@
 
                 //d3.json("resources/in-2001.json", function(error, IND)
                     if (error) return console.error(error);
-
-                    console.log(times);
                     var width = 960,
                         height = 1160;
 
@@ -89,9 +87,7 @@
                     var path = d3.geo.path().projection(projection);
 
                     function pretty_time(seconds) {
-                        // TIP: to find current time in milliseconds, use:
-                        // var  current_time_milliseconds = new Date().getTime();
-                        if (typeof seconds == 'undefined')
+                        if (seconds == 'None')
                           return 'No route Available';
                         if (seconds == 0)
                           return '';
