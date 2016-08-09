@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="resources/driving.css" rel="L1 stylesheet" title="L1" type="text/css">
+    <title></title>
+    <style>
+      .legend {
+        font-size: 12px;
+      }
+    </style>
+</head>
+<body>
+    <script src="http://d3js.org/d3.v3.min.js">
+    </script>
+    <script src="http://d3js.org/topojson.v1.min.js">
+    </script>
+    <h2 style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">Driving times from Delhi (Google Maps Data)</h2>
+    <div id="mapContainer">
+        <svg height="1000" width="80%" xmlns=
+        "http://www.w3.org/2000/svg"></svg>
+    </div>
+    <script>
+                /* JavaScript goes here. */
+
+
+                var svg = d3.select("body").selectAll("svg");
+
+                // Add a legend
+                var legend_labels = [" ", " ", "6h", " ", "12h", " ", "18h", " ", "24h", " ", "30h", " ", "36h", " ", "42h", " ", "48h"];
+                var colors = ["#e6e600",  "#acac13",  "#737326",  "#393939",  "#00004c",  "#393939",  "#737326",  "#acac13",  "#e6e600",  "#acac13",  "#737326",  "#393939",  "#00004c",  "#393939",  "#737326",  "#acac13",  "#e6e600"];
+
+                var legend = svg.selectAll("g.legend")
+                  .data(colors)
+                  .enter().append("g")
+                  .attr("class", "legend");
+
+                var ls_w = 20, ls_h = 20, y_pos = 260;
+                legend.append("rect")
+                  .attr("x", 20)
+                  .attr("y", function(d, i){ return y_pos + (i*ls_h) - 2*ls_h;})
+                  .attr("width", ls_w)
+                  .attr("height", ls_h)
+                  .style("fill", function(d, i) { return d; })
+                  .style("opacity", 0.8);
+
+                  legend.append("text")
+                  .attr("x", 50)
+                  .attr("y", function(d, i){ return y_pos + (i*ls_h) - ls_h - 4;})
+                  .text(function(d, i){ return legend_labels[i]; });
+
+
+                d3.json("resources/in-2001.json", function(error, IND) {
+                    if (error) return console.error(error);
+
+                    var width = 960,
+                        height = 1160;
+
+                    var subunits = topojson.feature(IND, IND.objects.subunitsD);
+                    var projection = d3.geo.mercator()
+                        .center([82, 15.4])
+                        .scale(1500)
+                        .translate([width / 2, height / 2]);
+
+                    var path = d3.geo.path().projection(projection);
+
+                    svg.append("path")
+                      .datum(subunits)
+                      .attr("d", path);
+                    svg.selectAll(".subunit")
+                      .data(subunits.features)
+                      .enter().append("path")
+                      .attr("class", function(d) { return "subunit " + d.id; })
+                      .attr("d", path);
+                });
+
+    </script>
+</body>
+</html>
