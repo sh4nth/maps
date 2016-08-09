@@ -1,604 +1,604 @@
-district, time
-Lahul_and_Spiti, 57782
-Upper_Subansiri, 136161
-Upper_Siang, 154668
-Dibang_Valley, 172382
-South_Garo_Hills, 110001
-Karbi_Anglong, 124898
-Mayurbhanj, 81255
-Adilabad, 65615
-East_Godavari, 106282
-Lakshadweep, None
-Andamans, None
-Nicobars, None
-New_Delhi, 0
-Central_Delhi, 1351
-Gurgaon, 2584
-North_West_Delhi, 2780
-North_Delhi, 2780
-North_East_Delhi, 2780
-East_Delhi, 2780
-West_Delhi, 2780
-South_West_Delhi, 2780
-South_Delhi, 2780
-Faridabad, 3289
-Gautam_Buddha_Nagar, 3355
-Ghaziabad, 3457
-Sonipat, 4210
-Baghpat, 4762
-Rewari, 6032
-Jhajjar, 6164
-Rohtak, 6940
-Panipat, 7317
-Meerut, 7361
-Bulandshahar, 8129
-Mathura, 8536
-Karnal, 8650
-Aligarh, 9515
-Jyotiba_Phule_Nagar, 9596
-Bhiwani, 9623
-Hathras, 9641
-Alwar, 9970
-Muzaffarnagar, 10162
-Mahendragarh, 10305
-Kurukshetra, 10358
-Agra, 10738
-Firozabad, 10986
-Jind, 11160
-Moradabad, 11519
-Bharatpur, 11893
-Bijnor, 12096
-Hisar, 12456
-Ambala, 12534
-Kaithal, 12706
-Rampur, 12795
-Yamunanagar, 12825
-Dhaulpur, 13958
-Etah, 14159
-Saharanpur, 14609
-Fatehabad, 14932
-Panchkula, 15046
-Jaipur, 15225
-Fatehgarh_Sahib, 15256
-Etawah, 15476
-Chandigarh, 15598
-Mainpuri, 15760
-Dausa, 15777
-Morena, 15821
-Patiala, 16073
-Jhunjhunun, 16253
-Hardwar, 16559
-Bareilly, 16733
-Budaun, 16871
-Rupnagar, 17473
-Ludhiana, 17565
-Sikar, 17706
-Sirsa, 17824
-Udham_Singh_Nagar, 18190
-Sangrur, 18392
-Auraiya, 18464
-Gwalior, 18786
-Bhind, 19022
-Dehradun, 19360
-Mansa, 19398
-Pilibhit, 19589
-Sirmaur, 19682
-Churu, 19853
-Karauli, 20104
-Nawanshahr, 20546
-Tonk, 20727
-Solan, 20836
-Bathinda, 21185
-Farrukhabad, 21326
-Ajmer, 21549
-Jalandhar, 21617
-Jalaun, 21760
-Una, 21804
-Nainital, 22032
-Shahjahanpur, 22047
-Sawai_Madhopur, 22186
-Moga, 22277
-Kanpur_Dehat, 22387
-Hoshiarpur, 22438
-Kanpur_Nagar, 22717
-Kapurthala, 23405
-Hanumangarh, 23503
-Kannauj, 23555
-Datia, 23814
-Bilaspur, 24739
-Muktsar, 24778
-Unnao, 25272
-Firozpur, 25390
-Hardoi, 25592
-Faridkot, 25700
-Jhansi, 25791
-Hamirpur, 25823
-Shimla, 25914
-Bundi, 26126
-Amritsar, 26305
-Shivpuri, 26884
-Gurdaspur, 26935
-Kheri, 26945
-Fatehpur, 27168
-Ganganagar, 27249
-Bhilwara, 27305
-Sheopur, 27654
-Nagaur, 27709
-Sitapur, 28307
-Hamirpur, 28409
-Bikaner, 28601
-Kota, 28635
-Almora, 28772
-Kathua, 29241
-Pali, 29263
-Lucknow, 29943
-Kangra, 30119
-Tehri_Garhwal, 30188
-Garhwal, 30188
-Lalitpur, 30340
-Chittaurgarh, 30528
-Rae_Bareli, 31087
-Banda, 31123
-Champawat, 31400
-Mandi, 31716
-Mahoba, 31732
-Rajsamand, 31814
-Barabanki, 31876
-Jodhpur, 32466
-Tikamgarh, 32721
-Baran, 32739
-Rudraprayag, 33127
-Kaushambi, 33220
-Neemuch, 33909
-Guna, 34111
-Allahabad, 34281
-Chhatarpur, 34325
-Jammu, 34470
-Udaipur, 34781
-Sirohi, 35024
-Jalor, 35090
-Pratapgarh, 35215
-Sagar, 35322
-Chitrakoot, 35329
-Jhalawar, 35734
-Bahraich, 36075
-Faizabad, 36570
-Udhampur, 36612
-Mandsaur, 36868
-Uttarkashi, 37072
-Sant_Ravidas_Nagar_Bhadohi, 37191
-Sultanpur, 37723
-Bageshwar, 37853
-Kullu, 37862
-Mirzapur, 38220
-Damoh, 38697
-Gonda, 38700
-Panna, 38965
-Chamba, 39121
-Jaunpur, 39275
-Shrawasti, 39380
-Varanasi, 39471
-Pithoragarh, 39631
-Balrampur, 40264
-Vidisha, 40291
-Chamoli, 40369
-Satna, 40431
-Basti, 40585
-Narsimhapur, 40866
-Chandauli, 41050
-Dungarpur, 41292
-Ambedkar_Nagar, 41777
-Ratlam, 41886
-Rajgarh, 41906
-Sant_Kabir_Nagar, 42124
-Barmer, 42480
-Raisen, 42504
-Banswara, 42872
-Sonbhadra, 44076
-Jaisalmer, 44084
-Rewa, 44168
-Patan, 44284
-Gorakhpur, 44496
-Bhopal, 44530
-Mahesana, 44884
-Kaimur_Bhabua, 44890
-Azamgarh, 44953
-Rajauri, 45120
-Banas_Kantha, 45146
-Katni, 45243
-Sabar_Kantha, 45466
-Jabalpur, 45638
-Sehore, 46070
-Ujjain, 46123
-Shajapur, 46333
-Kushinagar, 46525
-Doda, 46712
-Ghazipur, 46808
-Seoni, 47165
-Dhar, 47339
-Mau, 47641
-Deoria, 47686
-Maharajganj, 47797
-Siddharthnagar, 47850
-Chhindwara, 47926
-Gandhinagar, 48145
-Buxar, 48177
-Sidhi, 48260
-Jhabua, 48694
-Aurangabad, 48960
-Dewas, 49117
-Panch_Mahals, 49371
-Hoshangabad, 49777
-Ahmadabad, 49937
-Mandla, 49977
-Umaria, 50096
-Indore, 50122
-Dohad, 50283
-Gopalganj, 50638
-Punch, 51268
-Ballia, 51560
-Kheda, 51959
-Balaghat, 52957
-Anand, 52967
-Bhojpur, 53218
-Siwan, 53297
-Pashchim_Champaran, 53773
-Barwani, 54032
-Dindori, 54072
-Surendranagar, 54198
-Vadodara, 54217
-Gaya, 54303
-Harda, 54390
-Garhwa, 54717
-Nagpur, 55078
-Shahdol, 55150
-Betul, 55378
-Purba_Champaran, 55890
-West_Nimar, 55910
-Bhandara, 55972
-Anantnag, 56201
-Chatra, 56248
-Gondiya, 56280
-Saran, 56418
-Palamu, 56428
-Rohtas, 56636
-Kodarma, 57324
-Jehanabad, 57658
-Bharuch, 57783
-Kinnaur, 57950
-Narmada, 58373
-Vaishali, 58410
-Hazaribagh, 58467
-Muzaffarpur, 58548
-Patna, 58778
-Nawada, 59232
-East_Nimar, 59245
-Wardha, 59359
-Dhule, 59502
-Badgam, 59664
-Pulwama, 59762
-Bhavnagar, 59899
-Nalanda, 59901
-Srinagar, 59948
-Sheohar, 60026
-Amravati, 60623
-Rajkot, 60832
-Kawardha, 61244
-Giridih, 61500
-Dhanbad, 61819
-Nandurbar, 62059
-Jamnagar, 62169
-Samastipur, 62397
-Baramula, 62597
-Surat, 62716
-Sitamarhi, 62764
-Kachchh, 62792
-Rajnandgaon, 62881
-Darbhanga, 62889
-Chandrapur, 62894
-Koriya, 62937
-Navsari, 63000
-Bokaro, 63068
-Sheikhpura, 63253
-Surguja, 63257
-Jalgaon, 63539
-Madhubani, 63704
-Lohardaga, 64150
-Yavatmal, 64362
-Gadchiroli, 64597
-Jamui, 64765
-Amreli, 64786
-Kupwara, 65130
-Durg, 65233
-Ranchi, 65552
-Valsad, 65851
-Lakhisarai, 66121
-Puruliya, 66125
-Akola, 66347
-Begusarai, 66379
-Junagadh, 66622
-Deoghar, 66839
-Jashpur, 67634
-Gumla, 67797
-Daman, 67915
-Bilaspur, 67979
-Supaul, 67990
-Washim, 68074
-Raipur, 68160
-The_Dangs, 68598
-Nashik, 68630
-Dadra_and_Nagar_Haveli, 68798
-Porbandar, 68854
-Munger, 68920
-Khagaria, 69816
-Dhamtari, 70057
-Buldana, 70634
-Bankura, 70711
-Dumka, 70806
-Araria, 70831
-Madhepura, 70836
-Hingoli, 70847
-Aurangabad, 70854
-Banka, 71381
-Korba, 71471
-Mahasamund, 71671
-Janjgir_-_Champa, 71881
-Saharsa, 71883
-Barddhaman, 72656
-Godda, 72905
-Sundargarh, 73274
-Kanker, 73571
-Purnia, 73595
-Diu, 73940
-Raigarh, 74428
-Bhagalpur, 74585
-Kargil, 74608
-Ahmadnagar, 74728
-Jalna, 74891
-Katihar, 75419
-Thane, 75567
-Mumbai_Suburban, 75798
-Jharsuguda, 75907
-Parbhani, 76021
-Kishanganj, 76091
-Purbi_Singhbhum, 76161
-Nuapada, 76214
-Birbhum, 76650
-Karimnagar, 76745
-Pakaur, 76778
-Mumbai, 76784
-Nanded, 77223
-Haora, 77329
-Uttar_Dinajpur, 77995
-Medinipur, 78614
-Kolkata, 79063
-Pashchimi_Singhbhum, 79699
-Sambalpur, 79744
-Bid, 79951
-Medak, 80715
-Murshidabad, 80791
-Sahibganj, 80868
-Bargarh, 81106
-Debagarh, 82431
-Nadia, 82782
-Raigarh, 82785
-Pune, 82870
-Kendujhar, 83087
-Jalpaiguri, 83100
-Maldah, 83176
-Bastar, 83349
-Bidar, 83699
-Nalgonda, 83908
-Dantewada, 84221
-Dakshin_Dinajpur, 84610
-Sonapur, 84874
-Hugli, 85488
-North_Twenty_Four_Parganas, 85636
-South_Twenty_Four_Parganas, 85636
-Baleshwar, 85685
-Kalahandi, 85710
-Latur, 85756
-Baudh, 86262
-Balangir, 86582
-Nabarangapur, 86835
-Darjiling, 87158
-Osmanabad, 87472
-Mahbubnagar, 87884
-Bhadrak, 88417
-Solapur, 88489
-Leh_Ladakh, 88500
-Satara, 88508
-Kurnool, 90059
-Anugul, 90225
-Koch_Bihar, 90506
-Koraput, 90572
-Gulbarga, 90775
-Warangal, 90784
-Jajapur, 91355
-Khammam, 92161
-Raichur, 92738
-Kandhamal, 93310
-South_Sikkim, 93379
-East_Sikkim, 93469
-Krishna, 93956
-Kendrapara, 93981
-Rayagada, 93999
-Dhenkanal, 94057
-Kolhapur, 94579
-Cuttack, 94792
-Malkangiri, 94998
-Guntur, 95093
-Sangli, 95349
-Nayagarh, 95428
-Bijapur, 95736
-Anantapur, 96447
-Dhubri, 97492
-West_Sikkim, 97657
-Khordha, 97846
-Kokrajhar, 98199
-Bongaigaon, 98971
-West_Godavari, 99116
-Jagatsinghapur, 99212
-Puri, 99539
-Ratnagiri, 100033
-Rangareddi, 100164
-Belgaum, 100178
-Prakasam, 100482
-Bellary, 100563
-Bagalkot, 100904
-Vizianagaram, 101547
-Cuddapah, 102088
-Gajapati, 102891
-Dharwad, 102919
-Goalpara, 103007
-Nellore, 103249
-Ganjam, 103618
-Hyderabad, 103967
-Koppal, 103975
-Srikakulam, 104046
-Barpeta, 104487
-Bangalore_Rural, 104561
-Sindhudurg, 105390
-Nizamabad, 105473
-Nalbari, 106207
-Bangalore, 106619
-North_Sikkim, 106903
-Visakhapatnam, 107140
-Kolar, 107532
-Haveri, 107543
-West_Garo_Hills, 107760
-North_Goa, 107919
-Chitradurga, 108003
-Tumkur, 108160
-Gadag, 108283
-Kamrup, 108473
-East_Garo_Hills, 110227
-Darrang, 110684
-South_Goa, 111018
-Davanagere, 111578
-Uttara_Kannada, 111937
-Chittoor, 112684
-Mandya, 113660
-Thiruvallur, 113732
-Chennai, 113853
-Dharmapuri, 114948
-West_Khasi_Hills, 114986
-Hassan, 115089
-Shimoga, 115557
-Vellore, 115977
-Marigaon, 116207
-Ri-Bhoi, 116410
-Mysore, 116982
-Nagaon, 117464
-Kancheepuram, 117635
-Chikmagalur, 117982
-Salem, 118799
-Chamarajanagar, 118830
-Sonitpur, 119039
-Tiruvannamalai, 120932
-Namakkal, 121144
-East_Khasi_Hills, 121546
-Viluppuram, 122191
-Yanam, 122333
-Pondicherry, 122333
-Erode, 122582
-Kodagu, 122712
-Udupi, 123103
-Karur, 123191
-Dakshina_Kannada, 123623
-Jaintia_Hills, 123877
-Cuddalore, 124254
-Perambalur, 125732
-Wayanad, 126335
-Dindigul, 126729
-Ramanathapuram, 127088
-The_Nilgiris, 127701
-Coimbatore, 127762
-Tiruchirappalli, 127849
-Golaghat, 127979
-North_Cachar_Hills, 128235
-Ariyalur, 128359
-Dimapur, 129192
-Jorhat, 129407
-Madurai, 130010
-Kannur, 130059
-Kasaragod, 130485
-Palakkad, 130864
-Thanjavur, 130914
-Mahe, 130946
-Pudukkottai, 131285
-Theni, 131416
-Virudhunagar, 131719
-Karaikal, 132363
-Papum_Pare, 132465
-East_Kameng, 132920
-Kozhikode, 133177
-Malappuram, 133229
-Sivaganga, 133234
-Thiruvarur, 133541
-Sibsagar, 133937
-Nagapattinam, 134212
-Lakhimpur, 134436
-Thrissur, 135204
-Kohima, 135646
-Tirunelveli, 136398
-Thoothukkudi, 136580
-West_Kameng, 137559
-Dhemaji, 138189
-Wokha, 139602
-Dibrugarh, 139972
-Kanniyakumari, 140381
-Ernakulam, 140630
-Hailakandi, 141389
-Mokokchung, 141457
-Idukki, 142061
-Cachar, 142708
-Karimganj, 143496
-Senapati, 143646
-Tinsukia, 144191
-Mon, 144301
-Lower_Subansiri, 144315
-Alappuzha, 144653
-Pathanamthitta, 145561
-Kottayam, 145771
-Tuensang, 147776
-Kollam, 147798
-Thiruvananthapuram, 147860
-East_Siang, 149177
-Zunheboto, 149444
-Kolasib, 149651
-Imphal_East, 149789
-Tirap, 149868
-Imphal_West, 150248
-Phek, 150693
-Changlang, 151448
-Thoubal, 151531
-Bishnupur, 151599
-Ukhrul, 152860
-Tawang, 154193
-Churachandpur, 154734
-West_Siang, 154819
-Tamenglong, 154830
-Chandel, 155667
-Lohit, 156592
-Aizawl, 157665
-North_Tripura, 159979
-Dhalai, 161141
-Mamit, 161583
-West_Tripura, 167369
-Serchhip, 169156
-South_Tripura, 172514
-Lunglei, 175908
-Champhai, 178219
-Lawngtlai, 183002
-Saiha, 189015
+district,time
+Lahul_and_Spiti,57782
+Upper_Subansiri,136161
+Upper_Siang,154668
+Dibang_Valley,172382
+South_Garo_Hills,110001
+Karbi_Anglong,124898
+Mayurbhanj,81255
+Adilabad,65615
+East_Godavari,106282
+Lakshadweep,None
+Andamans,None
+Nicobars,None
+New_Delhi,0
+Central_Delhi,1351
+Gurgaon,2584
+North_West_Delhi,2780
+North_Delhi,2780
+North_East_Delhi,2780
+East_Delhi,2780
+West_Delhi,2780
+South_West_Delhi,2780
+South_Delhi,2780
+Faridabad,3289
+Gautam_Buddha_Nagar,3355
+Ghaziabad,3457
+Sonipat,4210
+Baghpat,4762
+Rewari,6032
+Jhajjar,6164
+Rohtak,6940
+Panipat,7317
+Meerut,7361
+Bulandshahar,8129
+Mathura,8536
+Karnal,8650
+Aligarh,9515
+Jyotiba_Phule_Nagar,9596
+Bhiwani,9623
+Hathras,9641
+Alwar,9970
+Muzaffarnagar,10162
+Mahendragarh,10305
+Kurukshetra,10358
+Agra,10738
+Firozabad,10986
+Jind,11160
+Moradabad,11519
+Bharatpur,11893
+Bijnor,12096
+Hisar,12456
+Ambala,12534
+Kaithal,12706
+Rampur,12795
+Yamunanagar,12825
+Dhaulpur,13958
+Etah,14159
+Saharanpur,14609
+Fatehabad,14932
+Panchkula,15046
+Jaipur,15225
+Fatehgarh_Sahib,15256
+Etawah,15476
+Chandigarh,15598
+Mainpuri,15760
+Dausa,15777
+Morena,15821
+Patiala,16073
+Jhunjhunun,16253
+Hardwar,16559
+Bareilly,16733
+Budaun,16871
+Rupnagar,17473
+Ludhiana,17565
+Sikar,17706
+Sirsa,17824
+Udham_Singh_Nagar,18190
+Sangrur,18392
+Auraiya,18464
+Gwalior,18786
+Bhind,19022
+Dehradun,19360
+Mansa,19398
+Pilibhit,19589
+Sirmaur,19682
+Churu,19853
+Karauli,20104
+Nawanshahr,20546
+Tonk,20727
+Solan,20836
+Bathinda,21185
+Farrukhabad,21326
+Ajmer,21549
+Jalandhar,21617
+Jalaun,21760
+Una,21804
+Nainital,22032
+Shahjahanpur,22047
+Sawai_Madhopur,22186
+Moga,22277
+Kanpur_Dehat,22387
+Hoshiarpur,22438
+Kanpur_Nagar,22717
+Kapurthala,23405
+Hanumangarh,23503
+Kannauj,23555
+Datia,23814
+Bilaspur,24739
+Muktsar,24778
+Unnao,25272
+Firozpur,25390
+Hardoi,25592
+Faridkot,25700
+Jhansi,25791
+Hamirpur,25823
+Shimla,25914
+Bundi,26126
+Amritsar,26305
+Shivpuri,26884
+Gurdaspur,26935
+Kheri,26945
+Fatehpur,27168
+Ganganagar,27249
+Bhilwara,27305
+Sheopur,27654
+Nagaur,27709
+Sitapur,28307
+Hamirpur,28409
+Bikaner,28601
+Kota,28635
+Almora,28772
+Kathua,29241
+Pali,29263
+Lucknow,29943
+Kangra,30119
+Tehri_Garhwal,30188
+Garhwal,30188
+Lalitpur,30340
+Chittaurgarh,30528
+Rae_Bareli,31087
+Banda,31123
+Champawat,31400
+Mandi,31716
+Mahoba,31732
+Rajsamand,31814
+Barabanki,31876
+Jodhpur,32466
+Tikamgarh,32721
+Baran,32739
+Rudraprayag,33127
+Kaushambi,33220
+Neemuch,33909
+Guna,34111
+Allahabad,34281
+Chhatarpur,34325
+Jammu,34470
+Udaipur,34781
+Sirohi,35024
+Jalor,35090
+Pratapgarh,35215
+Sagar,35322
+Chitrakoot,35329
+Jhalawar,35734
+Bahraich,36075
+Faizabad,36570
+Udhampur,36612
+Mandsaur,36868
+Uttarkashi,37072
+Sant_Ravidas_Nagar_Bhadohi,37191
+Sultanpur,37723
+Bageshwar,37853
+Kullu,37862
+Mirzapur,38220
+Damoh,38697
+Gonda,38700
+Panna,38965
+Chamba,39121
+Jaunpur,39275
+Shrawasti,39380
+Varanasi,39471
+Pithoragarh,39631
+Balrampur,40264
+Vidisha,40291
+Chamoli,40369
+Satna,40431
+Basti,40585
+Narsimhapur,40866
+Chandauli,41050
+Dungarpur,41292
+Ambedkar_Nagar,41777
+Ratlam,41886
+Rajgarh,41906
+Sant_Kabir_Nagar,42124
+Barmer,42480
+Raisen,42504
+Banswara,42872
+Sonbhadra,44076
+Jaisalmer,44084
+Rewa,44168
+Patan,44284
+Gorakhpur,44496
+Bhopal,44530
+Mahesana,44884
+Kaimur_Bhabua,44890
+Azamgarh,44953
+Rajauri,45120
+Banas_Kantha,45146
+Katni,45243
+Sabar_Kantha,45466
+Jabalpur,45638
+Sehore,46070
+Ujjain,46123
+Shajapur,46333
+Kushinagar,46525
+Doda,46712
+Ghazipur,46808
+Seoni,47165
+Dhar,47339
+Mau,47641
+Deoria,47686
+Maharajganj,47797
+Siddharthnagar,47850
+Chhindwara,47926
+Gandhinagar,48145
+Buxar,48177
+Sidhi,48260
+Jhabua,48694
+Aurangabad,48960
+Dewas,49117
+Panch_Mahals,49371
+Hoshangabad,49777
+Ahmadabad,49937
+Mandla,49977
+Umaria,50096
+Indore,50122
+Dohad,50283
+Gopalganj,50638
+Punch,51268
+Ballia,51560
+Kheda,51959
+Balaghat,52957
+Anand,52967
+Bhojpur,53218
+Siwan,53297
+Pashchim_Champaran,53773
+Barwani,54032
+Dindori,54072
+Surendranagar,54198
+Vadodara,54217
+Gaya,54303
+Harda,54390
+Garhwa,54717
+Nagpur,55078
+Shahdol,55150
+Betul,55378
+Purba_Champaran,55890
+West_Nimar,55910
+Bhandara,55972
+Anantnag,56201
+Chatra,56248
+Gondiya,56280
+Saran,56418
+Palamu,56428
+Rohtas,56636
+Kodarma,57324
+Jehanabad,57658
+Bharuch,57783
+Kinnaur,57950
+Narmada,58373
+Vaishali,58410
+Hazaribagh,58467
+Muzaffarpur,58548
+Patna,58778
+Nawada,59232
+East_Nimar,59245
+Wardha,59359
+Dhule,59502
+Badgam,59664
+Pulwama,59762
+Bhavnagar,59899
+Nalanda,59901
+Srinagar,59948
+Sheohar,60026
+Amravati,60623
+Rajkot,60832
+Kawardha,61244
+Giridih,61500
+Dhanbad,61819
+Nandurbar,62059
+Jamnagar,62169
+Samastipur,62397
+Baramula,62597
+Surat,62716
+Sitamarhi,62764
+Kachchh,62792
+Rajnandgaon,62881
+Darbhanga,62889
+Chandrapur,62894
+Koriya,62937
+Navsari,63000
+Bokaro,63068
+Sheikhpura,63253
+Surguja,63257
+Jalgaon,63539
+Madhubani,63704
+Lohardaga,64150
+Yavatmal,64362
+Gadchiroli,64597
+Jamui,64765
+Amreli,64786
+Kupwara,65130
+Durg,65233
+Ranchi,65552
+Valsad,65851
+Lakhisarai,66121
+Puruliya,66125
+Akola,66347
+Begusarai,66379
+Junagadh,66622
+Deoghar,66839
+Jashpur,67634
+Gumla,67797
+Daman,67915
+Bilaspur,67979
+Supaul,67990
+Washim,68074
+Raipur,68160
+The_Dangs,68598
+Nashik,68630
+Dadra_and_Nagar_Haveli,68798
+Porbandar,68854
+Munger,68920
+Khagaria,69816
+Dhamtari,70057
+Buldana,70634
+Bankura,70711
+Dumka,70806
+Araria,70831
+Madhepura,70836
+Hingoli,70847
+Aurangabad,70854
+Banka,71381
+Korba,71471
+Mahasamund,71671
+Janjgir_-_Champa,71881
+Saharsa,71883
+Barddhaman,72656
+Godda,72905
+Sundargarh,73274
+Kanker,73571
+Purnia,73595
+Diu,73940
+Raigarh,74428
+Bhagalpur,74585
+Kargil,74608
+Ahmadnagar,74728
+Jalna,74891
+Katihar,75419
+Thane,75567
+Mumbai_Suburban,75798
+Jharsuguda,75907
+Parbhani,76021
+Kishanganj,76091
+Purbi_Singhbhum,76161
+Nuapada,76214
+Birbhum,76650
+Karimnagar,76745
+Pakaur,76778
+Mumbai,76784
+Nanded,77223
+Haora,77329
+Uttar_Dinajpur,77995
+Medinipur,78614
+Kolkata,79063
+Pashchimi_Singhbhum,79699
+Sambalpur,79744
+Bid,79951
+Medak,80715
+Murshidabad,80791
+Sahibganj,80868
+Bargarh,81106
+Debagarh,82431
+Nadia,82782
+Raigarh,82785
+Pune,82870
+Kendujhar,83087
+Jalpaiguri,83100
+Maldah,83176
+Bastar,83349
+Bidar,83699
+Nalgonda,83908
+Dantewada,84221
+Dakshin_Dinajpur,84610
+Sonapur,84874
+Hugli,85488
+North_Twenty_Four_Parganas,85636
+South_Twenty_Four_Parganas,85636
+Baleshwar,85685
+Kalahandi,85710
+Latur,85756
+Baudh,86262
+Balangir,86582
+Nabarangapur,86835
+Darjiling,87158
+Osmanabad,87472
+Mahbubnagar,87884
+Bhadrak,88417
+Solapur,88489
+Leh_Ladakh,88500
+Satara,88508
+Kurnool,90059
+Anugul,90225
+Koch_Bihar,90506
+Koraput,90572
+Gulbarga,90775
+Warangal,90784
+Jajapur,91355
+Khammam,92161
+Raichur,92738
+Kandhamal,93310
+South_Sikkim,93379
+East_Sikkim,93469
+Krishna,93956
+Kendrapara,93981
+Rayagada,93999
+Dhenkanal,94057
+Kolhapur,94579
+Cuttack,94792
+Malkangiri,94998
+Guntur,95093
+Sangli,95349
+Nayagarh,95428
+Bijapur,95736
+Anantapur,96447
+Dhubri,97492
+West_Sikkim,97657
+Khordha,97846
+Kokrajhar,98199
+Bongaigaon,98971
+West_Godavari,99116
+Jagatsinghapur,99212
+Puri,99539
+Ratnagiri,100033
+Rangareddi,100164
+Belgaum,100178
+Prakasam,100482
+Bellary,100563
+Bagalkot,100904
+Vizianagaram,101547
+Cuddapah,102088
+Gajapati,102891
+Dharwad,102919
+Goalpara,103007
+Nellore,103249
+Ganjam,103618
+Hyderabad,103967
+Koppal,103975
+Srikakulam,104046
+Barpeta,104487
+Bangalore_Rural,104561
+Sindhudurg,105390
+Nizamabad,105473
+Nalbari,106207
+Bangalore,106619
+North_Sikkim,106903
+Visakhapatnam,107140
+Kolar,107532
+Haveri,107543
+West_Garo_Hills,107760
+North_Goa,107919
+Chitradurga,108003
+Tumkur,108160
+Gadag,108283
+Kamrup,108473
+East_Garo_Hills,110227
+Darrang,110684
+South_Goa,111018
+Davanagere,111578
+Uttara_Kannada,111937
+Chittoor,112684
+Mandya,113660
+Thiruvallur,113732
+Chennai,113853
+Dharmapuri,114948
+West_Khasi_Hills,114986
+Hassan,115089
+Shimoga,115557
+Vellore,115977
+Marigaon,116207
+Ri-Bhoi,116410
+Mysore,116982
+Nagaon,117464
+Kancheepuram,117635
+Chikmagalur,117982
+Salem,118799
+Chamarajanagar,118830
+Sonitpur,119039
+Tiruvannamalai,120932
+Namakkal,121144
+East_Khasi_Hills,121546
+Viluppuram,122191
+Yanam,122333
+Pondicherry,122333
+Erode,122582
+Kodagu,122712
+Udupi,123103
+Karur,123191
+Dakshina_Kannada,123623
+Jaintia_Hills,123877
+Cuddalore,124254
+Perambalur,125732
+Wayanad,126335
+Dindigul,126729
+Ramanathapuram,127088
+The_Nilgiris,127701
+Coimbatore,127762
+Tiruchirappalli,127849
+Golaghat,127979
+North_Cachar_Hills,128235
+Ariyalur,128359
+Dimapur,129192
+Jorhat,129407
+Madurai,130010
+Kannur,130059
+Kasaragod,130485
+Palakkad,130864
+Thanjavur,130914
+Mahe,130946
+Pudukkottai,131285
+Theni,131416
+Virudhunagar,131719
+Karaikal,132363
+Papum_Pare,132465
+East_Kameng,132920
+Kozhikode,133177
+Malappuram,133229
+Sivaganga,133234
+Thiruvarur,133541
+Sibsagar,133937
+Nagapattinam,134212
+Lakhimpur,134436
+Thrissur,135204
+Kohima,135646
+Tirunelveli,136398
+Thoothukkudi,136580
+West_Kameng,137559
+Dhemaji,138189
+Wokha,139602
+Dibrugarh,139972
+Kanniyakumari,140381
+Ernakulam,140630
+Hailakandi,141389
+Mokokchung,141457
+Idukki,142061
+Cachar,142708
+Karimganj,143496
+Senapati,143646
+Tinsukia,144191
+Mon,144301
+Lower_Subansiri,144315
+Alappuzha,144653
+Pathanamthitta,145561
+Kottayam,145771
+Tuensang,147776
+Kollam,147798
+Thiruvananthapuram,147860
+East_Siang,149177
+Zunheboto,149444
+Kolasib,149651
+Imphal_East,149789
+Tirap,149868
+Imphal_West,150248
+Phek,150693
+Changlang,151448
+Thoubal,151531
+Bishnupur,151599
+Ukhrul,152860
+Tawang,154193
+Churachandpur,154734
+West_Siang,154819
+Tamenglong,154830
+Chandel,155667
+Lohit,156592
+Aizawl,157665
+North_Tripura,159979
+Dhalai,161141
+Mamit,161583
+West_Tripura,167369
+Serchhip,169156
+South_Tripura,172514
+Lunglei,175908
+Champhai,178219
+Lawngtlai,183002
+Saiha,189015
 
-East_Midnapore, 78614
-Jamtara, 66156
-Latehar, 60808
-Saraikela_Kharsawan, 72850
-Simdega, 73337
-West_Midnapore, 78614
-Anuppur, 58861
-Ashoknagar, 34997
-Burhanpur, 62212
+East_Midnapore,78614
+Jamtara,66156
+Latehar,60808
+Saraikela_Kharsawan,72850
+Simdega,73337
+West_Midnapore,78614
+Anuppur,58861
+Ashoknagar,34997
+Burhanpur,62212
