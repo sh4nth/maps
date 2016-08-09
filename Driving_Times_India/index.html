@@ -8,21 +8,34 @@
       .legend {
         font-size: 12px;
       }
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        font-size: 10px;
+        background: #FFFFE0;
+        border: 1px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
     </style>
 </head>
 <body>
-    <script src="https://d3js.org/d3.v3.min.js">
-    </script>
-    <script src="https://d3js.org/topojson.v1.min.js">
-    </script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <h2 style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">Driving times from Delhi (Google Maps Data)</h2>
     <div id="mapContainer">
+        <div class="tooltip" style="opacity: 0;"></div>
         <svg height="1000" width="80%" xmlns=
         "http://www.w3.org/2000/svg"></svg>
     </div>
     <script>
                 /* JavaScript goes here. */
 
+                var div = d3.select("body").select("div.tooltip");
 
                 var svg = d3.select("body").selectAll("svg");
 
@@ -42,17 +55,28 @@
                   .attr("width", ls_w)
                   .attr("height", ls_h)
                   .style("fill", function(d, i) { return d; })
-                  .style("opacity", 0.8);
+                  .style("opacity", 1);
 
                   legend.append("text")
                   .attr("x", 50)
                   .attr("y", function(d, i){ return y_pos + (i*ls_h) - ls_h - 4;})
                   .text(function(d, i){ return legend_labels[i]; });
 
+                queue()
+                  .defer(d3.csv, "data/driving.csv")
+                  .defer(d3.json, "resources/in-2001.json")
+                  .await(ready);
 
-                d3.json("resources/in-2001.json", function(error, IND) {
+                var times = {};
+                function ready(error, data, IND) {
+                    data.forEach(function(d) {
+                      times[d.district] = d.time;
+                    });
+
+                //d3.json("resources/in-2001.json", function(error, IND)
                     if (error) return console.error(error);
 
+                    console.log(times);
                     var width = 960,
                         height = 1160;
 
@@ -64,6 +88,33 @@
 
                     var path = d3.geo.path().projection(projection);
 
+                    function pretty_time(seconds) {
+                        // TIP: to find current time in milliseconds, use:
+                        // var  current_time_milliseconds = new Date().getTime();
+                        if (seconds == 0)
+                          return '';
+
+                        function optionallyAdd(number, unit) {
+                            if(number == 0)
+                              return '';
+                            if(number == 1)
+                              return number + ' ' + unit;
+                            else
+                              return number + ' ' + unit + 's';
+                        }
+
+                        var minutes = seconds > 3600 * 24 ? 0 : Math.floor((seconds % 3600)/60);
+                        var hours = Math.floor((seconds - minutes * 60) / 3600);
+                        var days = Math.floor(hours / 24);
+                        hours = hours % 24;
+
+                        return optionallyAdd(days, 'day') + ' ' + optionallyAdd(hours, "hour") + ' ' + optionallyAdd(minutes, "minute");
+                    }
+
+                    function pretty(time_in_sec) {
+
+                    }
+
                     svg.append("path")
                       .datum(subunits)
                       .attr("d", path);
@@ -71,8 +122,25 @@
                       .data(subunits.features)
                       .enter().append("path")
                       .attr("class", function(d) { return "subunit " + d.id; })
-                      .attr("d", path);
-                });
+                      .attr("d", path)
+                      .style("opacity", 1)
+
+                      .on("mouseover", function(d) {
+                        d3.select(this).transition().duration(300).style("opacity", 0.8);
+                        div.transition().duration(300)
+                        .style("opacity", 0.8)
+                        div.html("<strong>" + (d.id).replace(/_/g, " ") + "</strong><br/>" + pretty_time(times[d.id]))
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY -30) + "px");
+                      })
+                      .on("mouseout", function() {
+                        d3.select(this)
+                        .transition().duration(300)
+                        .style("opacity", 1);
+                        div.transition().duration(300)
+                        .style("opacity", 0);
+                      });
+              };
 
     </script>
 </body>
