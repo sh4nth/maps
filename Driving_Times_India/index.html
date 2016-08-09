@@ -91,6 +91,8 @@
                     function pretty_time(seconds) {
                         // TIP: to find current time in milliseconds, use:
                         // var  current_time_milliseconds = new Date().getTime();
+                        if (typeof myVar == 'undefined')
+                          return 'No route Available';
                         if (seconds == 0)
                           return '';
 
