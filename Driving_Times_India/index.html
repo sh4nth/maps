@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link href="resources/driving.css" rel="L1 stylesheet" title="L1" type="text/css">
+    <!--<link href="resources/driving.css" rel="L1 stylesheet" title="L1" type="text/css">-->
     <title></title>
     <style>
       .legend {
@@ -33,7 +33,54 @@
         "http://www.w3.org/2000/svg"></svg>
     </div>
     <script>
-                /* JavaScript goes here. */
+                function pretty_time(seconds) {
+                    if (seconds == 'None')
+                      return 'No route Available';
+                    if (seconds == 0)
+                      return '';
+
+                    function optionallyAdd(number, unit) {
+                        if(number == 0)
+                          return '';
+                        if(number == 1)
+                          return number + ' ' + unit;
+                        else
+                          return number + ' ' + unit + 's';
+                    }
+
+                    var minutes = seconds > 3600 * 24 ? 0 : Math.floor((seconds % 3600)/60);
+                    var hours = Math.floor((seconds - minutes * 60) / 3600);
+                    var days = Math.floor(hours / 24);
+                    hours = hours % 24;
+
+                    return optionallyAdd(days, 'day') + ' ' + optionallyAdd(hours, "hour") + ' ' + optionallyAdd(minutes, "minute");
+                }
+
+                function colorOf(s) {
+                  var r1 = 250, g1 = 240, b1 = 10;
+                  var r2 = 200, g2 = 20, b2 = 10;
+                  var r3 = 0, g3 = 0, b3 = 0;
+                  var x = s/(3600 * 24 * 2.5);
+                  function interpolate(c1,c2,c3,x) {
+                    var y = 1 // day
+                    y = y/2.5
+                    if(x < y) {
+                      x = x/y;
+                      return Math.floor(c1*(1-x) + c2*x);
+                    } else {
+                      x = (x - y)/(1 - y);
+                      //x = Math.sqrt(x);
+                      return Math.floor(c2*(1-x) + c3*x);
+                    }
+                  };
+
+                  var r = interpolate(r1, r2, r3, x);
+                  var g = interpolate(g1, g2, g3, x);
+                  var b = interpolate(b1, b2, b3, x);
+
+                  var ret =  "rgb(" + r + ", " + g + ", " + b + ")";
+                  return ret;
+                }
 
                 var div = d3.select("body").select("div.tooltip");
 
@@ -41,10 +88,9 @@
 
                 // Add a legend
                 var legend_labels = [" ", " ", "6h", " ", "12h", " ", "18h", " ", "24h", " ", "30h", " ", "36h", " ", "42h", " ", "48h"];
-                var colors = ["#e6e600",  "#acac13",  "#737326",  "#393939",  "#00004c",  "#393939",  "#737326",  "#acac13",  "#e6e600",  "#acac13",  "#737326",  "#393939",  "#00004c",  "#393939",  "#737326",  "#acac13",  "#e6e600"];
-
+                var legend_values = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48];
                 var legend = svg.selectAll("g.legend")
-                  .data(colors)
+                  .data(legend_values)
                   .enter().append("g")
                   .attr("class", "legend");
 
@@ -54,7 +100,7 @@
                   .attr("y", function(d, i){ return y_pos + (i*ls_h) - 2*ls_h;})
                   .attr("width", ls_w)
                   .attr("height", ls_h)
-                  .style("fill", function(d, i) { return d; })
+                  .style("fill", function(d, i) { return colorOf(d * 3600); })
                   .style("opacity", 1);
 
                   legend.append("text")
@@ -86,33 +132,12 @@
 
                     var path = d3.geo.path().projection(projection);
 
-                    function pretty_time(seconds) {
-                        if (seconds == 'None')
-                          return 'No route Available';
-                        if (seconds == 0)
-                          return '';
-
-                        function optionallyAdd(number, unit) {
-                            if(number == 0)
-                              return '';
-                            if(number == 1)
-                              return number + ' ' + unit;
-                            else
-                              return number + ' ' + unit + 's';
-                        }
-
-                        var minutes = seconds > 3600 * 24 ? 0 : Math.floor((seconds % 3600)/60);
-                        var hours = Math.floor((seconds - minutes * 60) / 3600);
-                        var days = Math.floor(hours / 24);
-                        hours = hours % 24;
-
-                        return optionallyAdd(days, 'day') + ' ' + optionallyAdd(hours, "hour") + ' ' + optionallyAdd(minutes, "minute");
+                    function logIfNone(a, b) {
+                      if (b == 'None' || typeof b == 'undefined') {
+                        console.log(a);
+                      }
+                      return '!';
                     }
-
-                    function pretty(time_in_sec) {
-
-                    }
-
                     svg.append("path")
                       .datum(subunits)
                       .attr("d", path);
@@ -122,6 +147,7 @@
                       .attr("class", function(d) { return "subunit " + d.id; })
                       .attr("d", path)
                       .style("opacity", 1)
+                      .style("fill", function(d) { logIfNone(d.id, times[d.id]); return colorOf(times[d.id]); })
 
                       .on("mouseover", function(d) {
                         d3.select(this).transition().duration(300).style("opacity", 0.8);
@@ -139,7 +165,6 @@
                         .style("opacity", 0);
                       });
               };
-
     </script>
 </body>
 </html>
