@@ -23,6 +23,7 @@
     </style>
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
@@ -58,27 +59,32 @@
 
                 function colorOf(s) {
                   var r1 = 250, g1 = 240, b1 = 10;
-                  var r2 = 200, g2 = 20, b2 = 10;
-                  var r3 = 0, g3 = 0, b3 = 0;
-                  var x = s/(3600 * 24 * 2.5);
+                  var r2 = 150, g2 = 20, b2 = 10;
+                  var r3 = 0, g3 = 0, b3 = 100;
+
+                  var h1 = 60, s1 = 100, l1 = 80;
+                  var h2 = 0, s2 = 90, l2 = 60;
+                  var h3 = -180, s3 = 50, l3 = 30;
+
+                  var max = 3 // days
+                  var y = 1.5 // day
+                  var x = s/(3600 * 24 * max);
+
                   function interpolate(c1,c2,c3,x) {
-                    var y = 1 // day
-                    y = y/2.5
+                    y = y/max;
                     if(x < y) {
                       x = x/y;
                       return Math.floor(c1*(1-x) + c2*x);
                     } else {
                       x = (x - y)/(1 - y);
-                      //x = Math.sqrt(x);
                       return Math.floor(c2*(1-x) + c3*x);
                     }
                   };
+                  var h = (interpolate(h1, h2, h3, x) + 360) % 360;
+                  var s = interpolate(h1, s2, s3, x);
+                  var l = interpolate(h1, l2, l3, x);
 
-                  var r = interpolate(r1, r2, r3, x);
-                  var g = interpolate(g1, g2, g3, x);
-                  var b = interpolate(b1, b2, b3, x);
-
-                  var ret =  "rgb(" + r + ", " + g + ", " + b + ")";
+                  var ret =  "hsl(" + h + ", " + s + "%, " + l + "%)";
                   return ret;
                 }
 
@@ -87,8 +93,7 @@
                 var svg = d3.select("body").selectAll("svg");
 
                 // Add a legend
-                var legend_labels = [" ", " ", "6h", " ", "12h", " ", "18h", " ", "24h", " ", "30h", " ", "36h", " ", "42h", " ", "48h"];
-                var legend_values = [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48];
+                var legend_values = _.range(0,3600*24*3+1,3600*3);
                 var legend = svg.selectAll("g.legend")
                   .data(legend_values)
                   .enter().append("g")
@@ -100,26 +105,26 @@
                   .attr("y", function(d, i){ return y_pos + (i*ls_h) - 2*ls_h;})
                   .attr("width", ls_w)
                   .attr("height", ls_h)
-                  .style("fill", function(d, i) { return colorOf(d * 3600); })
+                  .style("fill", function(d, i) { return colorOf(d); })
                   .style("opacity", 1);
 
                   legend.append("text")
                   .attr("x", 50)
                   .attr("y", function(d, i){ return y_pos + (i*ls_h) - ls_h - 4;})
-                  .text(function(d, i){ return legend_labels[i]; });
+                  .text(function(d, i){ return pretty_time(legend_values[i]); });
 
                 queue()
                   .defer(d3.csv, "data/driving.csv")
-                  .defer(d3.json, "resources/in-2001.json")
+                  .defer(d3.json, "../resources/in-2001.json")
                   .await(ready);
 
+                var origin = 'Delhi';
                 var times = {};
                 function ready(error, data, IND) {
                     data.forEach(function(d) {
-                      times[d.district] = d.time;
+                      times[d.origin] = d;
                     });
 
-                //d3.json("resources/in-2001.json", function(error, IND)
                     if (error) return console.error(error);
                     var width = 960,
                         height = 1160;
@@ -147,13 +152,28 @@
                       .attr("class", function(d) { return "subunit " + d.id; })
                       .attr("d", path)
                       .style("opacity", 1)
-                      .style("fill", function(d) { logIfNone(d.id, times[d.id]); return colorOf(times[d.id]); })
+                      .style("fill", function(district) {
+                        logIfNone(district.id, times[origin][district.id]);
+                        return colorOf(times[origin][district.id]);
+                      })
+                      .style("stroke-width", function(district) {
+                        if (typeof times[district.id] !== "undefined") {
+                          return 1;
+                        } else {
+                          return 0;
+                        }
+                      })
+                      .style("stroke-dasharray", ("2,2"))
+                      .style("stroke", "white")
 
                       .on("mouseover", function(d) {
+                        var possible = '';
+                        if (typeof times[d.id] !== "undefined")
+                          possible = '*';
                         d3.select(this).transition().duration(300).style("opacity", 0.8);
                         div.transition().duration(300)
                         .style("opacity", 0.8)
-                        div.html("<strong>" + (d.id).replace(/_/g, " ") + "</strong><br/>" + pretty_time(times[d.id]))
+                        div.html("<strong>" + origin.replace(/_/g, " ") + " -> " + (d.id).replace(/_/g, " ") + possible + "</strong><br/>" + pretty_time(times[origin][d.id]))
                         .style("left", (d3.event.pageX) + "px")
                         .style("top", (d3.event.pageY -30) + "px");
                       })
@@ -163,6 +183,22 @@
                         .style("opacity", 1);
                         div.transition().duration(300)
                         .style("opacity", 0);
+                      })
+                      .on("click", function(district) {
+                        if (typeof times[district.id] !== "undefined") {
+                          origin = district.id;
+                          svg.selectAll(".subunit")
+                            .style("fill", function(d) {
+                              logIfNone(d.id, times[origin][d.id]);
+                              return colorOf(times[origin][d.id]);
+                            });
+                        } else {
+                          div.transition().duration(300)
+                          .style("opacity", 0.8)
+                          div.html("No data for " + district.id + " yet")
+                          .style("left", (d3.event.pageX) + "px")
+                          .style("top", (d3.event.pageY -30) + "px");
+                        }
                       });
               };
     </script>
