@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!--LINK rel="L1 stylesheet" title="L1" href="Driving.css" type="text/css" --> 
+<LINK rel="L1 stylesheet" title="L1" href="walking.css" type="text/css"> 
+<!--<LINK rel="L2 stylesheet" title="L2" href="L2.css" type="text/css"> -->
+            <!--<style>
+
+              /* CSS goes here. */
+              .subunit."Udham Singh Nagar" { fill: #fded3c; }
+              .subunit.Bastar { fill: #cdd; }
+              .subunit.NIR { fill: #cdc; }
+              .subunit.ENG { fill: #dcd; }
+              .subunit.IRL { display: none; }
+
+          </style> -->
+              <body>
+              <script src="http://d3js.org/d3.v3.min.js"></script>
+              <script src="http://d3js.org/topojson.v1.min.js"></script>
+              <div id="mapContainer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="1000"></svg>
+              </div>
+              <div id="info">III</div>
+              <div id="legend">LLL</div>
+              <script>
+                /* JavaScript goes here. */
+                var width = 960,
+                    height = 1160;
+
+                var svg = d3.select("svg");
+                //d3.select("body").append("svg")
+                //        .attr("width", width)
+                //        .attr("height", height);
+
+                d3.json("in-2001.json", function(error, IND) {
+                    if (error) return console.error(error);
+
+                    var subunits = topojson.feature(IND, IND.objects.subunitsD);
+                    var projection = d3.geo.mercator()
+                        .center([82, 15.4])
+                        .scale(1500)
+                        .translate([width / 2, height / 2]);
+
+                    /*var projection = d3.geo.albers()
+                        .center([82, 25.4])
+                        .rotate([0, 0])
+                        .parallels([50, 60])
+                        .scale(600)
+                        .translate([width / 2, height / 2]);
+                    */
+                    var path = d3.geo.path()
+                        .projection(projection);
+
+                    svg.append("path")
+                        .datum(subunits)
+                        .attr("d", path);
+                    svg.selectAll(".subunit")
+                            .data(subunits.features)
+                            .enter().append("path")
+                            .attr("class", function(d) { return "subunit " + d.id; })
+                            .attr("d", path);
+                    });
+
+
+                /*svg.append("path")
+                  .datum(topojson.feature(IND, IND.objects.subunitsD))
+                  .attr("d", d3.geo.path().projection(d3.geo.mercator()));
+                });
+                */
+              </script>
+</body>
+</html>

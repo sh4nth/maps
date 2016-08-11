@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .legend {
+        font-size: 12px;
+      }
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        font-size: 10px;
+        background: #FFFFE0;
+        border: 1px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <h2 style="font-family: 'Helvetica Neue', Helvetica, sans-serif;">Internal Migration India (Census 2001 Data)</h2>
+    <div id="mapContainer">
+        <div class="tooltip" style="opacity: 0;"></div>
+        <svg height="1000" width="80%" xmlns=
+        "http://www.w3.org/2000/svg"></svg>
+    </div>
+    <script>
+                var div = d3.select("body").select("div.tooltip");
+                var svg = d3.select("body").selectAll("svg");
+
+                // Add a legend
+                var maxval = 12000000
+                var legend_values = _.map(
+                  _.range(1,Math.log10(maxval)+1), function(v) {return Math.pow(10,v)} );
+                var legend = svg.selectAll("g.legend")
+                  .data(legend_values)
+                  .enter().append("g")
+                  .attr("class", "legend");
+
+                var ls_w = 20, ls_h = 20, y_pos = 260;
+                legend.append("rect")
+                  .attr("x", 20)
+                  .attr("y", function(d, i){ return y_pos + (i*ls_h) - 2*ls_h;})
+                  .attr("width", ls_w)
+                  .attr("height", ls_h)
+                  .style("fill", function(d, i) { return colorOf(d); })
+                  .style("opacity", 1);
+
+                  legend.append("text")
+                  .attr("x", 50)
+                  .attr("y", function(d, i){ return y_pos + (i*ls_h) - ls_h - 4;})
+                  .text(function(d, i){ return legend_values[i]; });
+
+                  function colorOf(value) {
+                    var h2 = 340, s2 = 90, l2 = 50;
+                    var h1 = 340, s1 = 30, l1 = 100;
+
+                    var max = maxval // days
+                    var x = Math.log10(value + 1)/Math.log10(max);
+
+                    function interpolate(c1,c2,x) {
+                        return Math.floor(c1*(1-x) + c2*x);
+                    };
+                    var h = (interpolate(h1, h2, x) + 360) % 360;
+                    var s = interpolate(s1, s2, x);
+                    var l = interpolate(l1, l2, x);
+
+                    var ret =  "hsl(" + h + ", " + s + "%, " + l + "%)";
+                    return ret;
+                  }
+
+
+                queue()
+                  .defer(d3.csv, "data/migration.csv")
+                  .defer(d3.json, "../resources/in-2001-pre-Telangana.json")
+                  .defer(d3.csv, "../resources/district_to_state_pre_Telangana.csv")
+                  .await(ready);
+
+                var destination = 'Delhi';
+                // var prevState = '';
+                var migrationTo = {};
+                var stateOf = {};
+                function ready(error, data, IND, d2s) {
+                    data.forEach(function(d) {
+                      migrationTo[d.district] = d;
+                    });
+                    d2s.forEach(function(d) {
+                      stateOf[d.district] = d.state;
+                    });
+
+                    if (error) return console.error(error);
+                    var width = 960,
+                        height = 1160;
+
+                    var subunits = topojson.feature(IND, IND.objects.subunitsD);
+                    var projection = d3.geo.mercator()
+                        .center([82, 15.4])
+                        .scale(1500)
+                        .translate([width / 2, height / 2]);
+
+                    var path = d3.geo.path().projection(projection);
+
+                    function logIfNone(a, b) {
+                      if (b == 'None' || typeof b == 'undefined') {
+                        console.log(a);
+                      }
+                      return '!';
+                    }
+                    svg.append("path")
+                      .datum(subunits)
+                      .attr("d", path);
+                    svg.selectAll(".subunit")
+                      .data(subunits.features)
+                      .enter().append("path")
+                      .attr("class", function(d) { return "subunit " + d.id; })
+                      .attr("d", path)
+                      .style("opacity", 1)
+                      .style("fill", function(district) {
+                        logIfNone(district.id, migrationTo[destination][stateOf[district.id]]);
+                        return colorOf(migrationTo[destination][stateOf[district.id]]);
+                      })
+
+                      .on("mouseover", function(d) {
+                        // var possible = '';
+                        // if (typeof migrationTo[d.id] !== "undefined")
+                        //   possible = '*';
+                        d3.select(this).transition().duration(300).style("opacity", 0.8);
+
+                        div.transition().duration(300)
+                        .style("opacity", 0.8)
+                        div.html("<strong>" + destination.replace(/_/g, " ") + "</strong><br/>" + migrationTo[destination][stateOf[d.id]] + " migrants from " + (stateOf[d.id]).replace(/_/g, " "))
+                        .style("left", (d3.event.pageX) + "px")
+                        .style("top", (d3.event.pageY -30) + "px");
+
+                      })
+                      .on("mouseout", function(d) {
+                        d3.select(this)
+                        .transition().duration(300)
+                        .style("opacity", 1);
+                        div.transition().duration(300)
+                        .style("opacity", 0);
+                        prevState = stateOf[d.id];
+
+                      })
+                      .on("click", function(district) {
+                        if (typeof migrationTo[district.id] !== "undefined") {
+                          destination = district.id;
+                          svg.selectAll(".subunit")
+                            .style("fill", function(d) {
+                              logIfNone(d.id, migrationTo[destination][stateOf[d.id]]);
+                              return colorOf(migrationTo[destination][stateOf[d.id]]);
+                            })
+                            .style("stroke-width", 0)
+                          div.transition().duration(300)
+                          .style("opacity", 0);
+                          d3.select(this)
+                          .style("stroke-width", 1)
+                          .style("stroke", "black");
+                        } else {
+                          div.transition().duration(300)
+                          .style("opacity", 0.8)
+                          div.html("No data for " + district.id + " yet")
+                          .style("left", (d3.event.pageX) + "px")
+                          .style("top", (d3.event.pageY -30) + "px");
+                        }
+                      });
+              };
+    </script>
+</body>
+</html>
