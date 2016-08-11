@@ -48,6 +48,7 @@
 01,02,Andhra_Pradesh,69.0
 01,02,Arunachal_Pradesh,5.0
 01,02,Assam,31.0
+01,02,Bihar,100.0
 01,02,Chandigarh,8.0
 01,02,Chhattisgarh,16.0
 01,02,Countries_in_Africa,1.0
@@ -58,6 +59,7 @@
 01,02,Dadra_and_Nagar_Haveli,0.0
 01,02,Daman_and_Diu,0.0
 01,02,Delhi,67.0
+01,02,Elsewhere_in_the_district_of_enumeration,89002.0
 01,02,Goa,1.0
 01,02,Gujarat,293.0
 01,02,Haryana,125.0
@@ -102,6 +104,7 @@
 01,03,Countries_in_Oceania,2.0
 01,03,Dadra_and_Nagar_Haveli,0.0
 01,03,Daman_and_Diu,0.0
+01,03,Delhi,300.0
 01,03,Elsewhere_in_the_district_of_enumeration,114714.0
 01,03,Goa,9.0
 01,03,Gujarat,206.0
@@ -382,6 +385,7 @@
 01,09,Goa,0.0
 01,09,Gujarat,14.0
 01,09,Haryana,65.0
+01,09,Himachal_Pradesh,300.0
 01,09,In_other_districts_of_the_state_of_enumeration,6587.0
 01,09,Jammu_and_Kashmir,0.0
 01,09,Jharkhand,7.0
@@ -699,6 +703,7 @@
 02,02,Dadra_and_Nagar_Haveli,0.0
 02,02,Daman_and_Diu,1.0
 02,02,Delhi,3551.0
+02,02,Elsewhere_in_the_district_of_enumeration,383800.0
 02,02,Goa,31.0
 02,02,Gujarat,319.0
 02,02,Haryana,1749.0
@@ -964,6 +969,7 @@
 02,08,Arunachal_Pradesh,3.0
 02,08,Assam,53.0
 02,08,Bihar,845.0
+02,08,Chandigarh,200.0
 02,08,Chhattisgarh,126.0
 02,08,Countries_in_Africa,3.0
 02,08,Countries_in_America,2.0
@@ -976,6 +982,7 @@
 02,08,Elsewhere_in_the_district_of_enumeration,49076.0
 02,08,Goa,2.0
 02,08,Gujarat,60.0
+02,08,Haryana,500.0
 02,08,Himachal_Pradesh,0.0
 02,08,In_other_districts_of_the_state_of_enumeration,24325.0
 02,08,Jammu_and_Kashmir,340.0
@@ -1001,6 +1008,7 @@
 02,08,Tripura,1.0
 02,08,Uttar_Pradesh,922.0
 02,08,Uttaranchal,171.0
+02,08,West_Bengal,200.0
 02,08,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,73401.0
 02,09,Andaman_and_Nicobar,4.0
 02,09,Andhra_Pradesh,123.0
@@ -1070,6 +1078,7 @@
 02,10,Himachal_Pradesh,0.0
 02,10,In_other_districts_of_the_state_of_enumeration,10987.0
 02,10,Jammu_and_Kashmir,320.0
+02,10,Jharkhand,200.0
 02,10,Karnataka,97.0
 02,10,Kerala,48.0
 02,10,Lakshadweep,0.0
@@ -1091,6 +1100,7 @@
 02,10,Tripura,6.0
 02,10,Uttar_Pradesh,5941.0
 02,10,Uttaranchal,6793.0
+02,10,West_Bengal,700.0
 02,10,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,112015.0
 02,11,Andaman_and_Nicobar,3.0
 02,11,Andhra_Pradesh,183.0
@@ -1222,6 +1232,7 @@
 03,01,Punjab,0.0
 03,01,Rajasthan,4014.0
 03,01,Sikkim,59.0
+03,01,States_in_India_beyond_the_state_of_enumeration,91400.0
 03,01,Tamil_Nadu,885.0
 03,01,Total,729824.0
 03,01,Tripura,22.0
@@ -1357,6 +1368,7 @@
 03,04,Orissa,857.0
 03,04,Pondicherry,12.0
 03,04,Punjab,0.0
+03,04,Rajasthan,6700.0
 03,04,Sikkim,53.0
 03,04,States_in_India_beyond_the_state_of_enumeration,128745.0
 03,04,Tamil_Nadu,995.0
@@ -1427,6 +1439,7 @@
 03,06,Dadra_and_Nagar_Haveli,0.0
 03,06,Daman_and_Diu,1.0
 03,06,Delhi,855.0
+03,06,Elsewhere_in_the_district_of_enumeration,100105.0
 03,06,Goa,9.0
 03,06,Gujarat,127.0
 03,06,Haryana,2224.0
@@ -1466,6 +1479,7 @@
 03,07,Chhattisgarh,1672.0
 03,07,Countries_in_Africa,60.0
 03,07,Countries_in_America,152.0
+03,07,Countries_in_Asia_beyond_India,8005.0
 03,07,Countries_in_Europe,150.0
 03,07,Countries_in_Oceania,15.0
 03,07,Dadra_and_Nagar_Haveli,0.0
@@ -1634,6 +1648,7 @@
 03,10,Sikkim,6.0
 03,10,States_in_India_beyond_the_state_of_enumeration,20654.0
 03,10,Tamil_Nadu,56.0
+03,10,Total,320052.0
 03,10,Tripura,4.0
 03,10,Uttar_Pradesh,6908.0
 03,10,Uttaranchal,477.0
@@ -1751,6 +1766,7 @@
 03,13,Gujarat,94.0
 03,13,Haryana,5695.0
 03,13,Himachal_Pradesh,597.0
+03,13,In_other_districts_of_the_state_of_enumeration,100777.0
 03,13,Jammu_and_Kashmir,195.0
 03,13,Jharkhand,191.0
 03,13,Karnataka,59.0
@@ -1797,6 +1813,7 @@
 03,14,Haryana,31757.0
 03,14,Himachal_Pradesh,1682.0
 03,14,In_other_districts_of_the_state_of_enumeration,168714.0
+03,14,Jammu_and_Kashmir,1006.0
 03,14,Jharkhand,318.0
 03,14,Karnataka,364.0
 03,14,Kerala,370.0
@@ -1905,6 +1922,7 @@
 03,16,Punjab,0.0
 03,16,Rajasthan,5444.0
 03,16,Sikkim,5.0
+03,16,States_in_India_beyond_the_state_of_enumeration,89800.0
 03,16,Tamil_Nadu,82.0
 03,16,Total,727156.0
 03,16,Tripura,5.0
@@ -1917,6 +1935,7 @@
 03,17,Arunachal_Pradesh,23.0
 03,17,Assam,749.0
 03,17,Bihar,14601.0
+03,17,Chandigarh,10058.0
 03,17,Chhattisgarh,896.0
 03,17,Countries_in_Africa,50.0
 03,17,Countries_in_America,71.0
@@ -1966,6 +1985,7 @@
 04,01,Chhattisgarh,2618.0
 04,01,Countries_in_Africa,360.0
 04,01,Countries_in_America,330.0
+04,01,Countries_in_Asia_beyond_India,9700.0
 04,01,Countries_in_Europe,314.0
 04,01,Countries_in_Oceania,58.0
 04,01,Dadra_and_Nagar_Haveli,8.0
@@ -2436,6 +2456,7 @@
 05,10,Gujarat,39.0
 05,10,Haryana,268.0
 05,10,Himachal_Pradesh,356.0
+05,10,In_other_districts_of_the_state_of_enumeration,18001.0
 05,10,Jammu_and_Kashmir,142.0
 05,10,Jharkhand,196.0
 05,10,Karnataka,22.0
@@ -2522,6 +2543,7 @@
 05,12,Dadra_and_Nagar_Haveli,2.0
 05,12,Daman_and_Diu,1.0
 05,12,Delhi,2577.0
+05,12,Elsewhere_in_the_district_of_enumeration,119400.0
 05,12,Goa,21.0
 05,12,Gujarat,327.0
 05,12,Haryana,4948.0
@@ -2854,6 +2876,7 @@
 06,06,Karnataka,123.0
 06,06,Kerala,133.0
 06,06,Lakshadweep,0.0
+06,06,Last_residence_elsewhere_in_India,400492.0
 06,06,Madhya_Pradesh,722.0
 06,06,Maharashtra,535.0
 06,06,Manipur,4.0
@@ -2901,6 +2924,7 @@
 06,07,Lakshadweep,0.0
 06,07,Last_residence_elsewhere_in_India,351226.0
 06,07,Madhya_Pradesh,1241.0
+06,07,Maharashtra,1007.0
 06,07,Manipur,4.0
 06,07,Meghalaya,9.0
 06,07,Mizoram,4.0
@@ -3101,10 +3125,12 @@
 06,11,Uttar_Pradesh,11229.0
 06,11,Uttaranchal,884.0
 06,11,West_Bengal,745.0
+06,11,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,200116.0
 06,12,Andaman_and_Nicobar,4.0
 06,12,Andhra_Pradesh,397.0
 06,12,Arunachal_Pradesh,15.0
 06,12,Assam,642.0
+06,12,Bihar,10089.0
 06,12,Chandigarh,1373.0
 06,12,Chhattisgarh,212.0
 06,12,Countries_in_Africa,8.0
@@ -3207,6 +3233,7 @@
 06,14,Dadra_and_Nagar_Haveli,2.0
 06,14,Daman_and_Diu,0.0
 06,14,Delhi,14931.0
+06,14,Elsewhere_in_the_district_of_enumeration,98200.0
 06,14,Goa,20.0
 06,14,Gujarat,248.0
 06,14,Haryana,0.0
@@ -3235,6 +3262,7 @@
 06,14,Tripura,15.0
 06,14,Uttar_Pradesh,14495.0
 06,14,Uttaranchal,1526.0
+06,14,West_Bengal,1100.0
 06,14,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,261908.0
 06,15,Andaman_and_Nicobar,4.0
 06,15,Andhra_Pradesh,269.0
@@ -3251,6 +3279,7 @@
 06,15,Dadra_and_Nagar_Haveli,6.0
 06,15,Daman_and_Diu,4.0
 06,15,Delhi,26688.0
+06,15,Elsewhere_in_the_district_of_enumeration,92200.0
 06,15,Goa,8.0
 06,15,Gujarat,178.0
 06,15,Haryana,0.0
@@ -3268,6 +3297,7 @@
 06,15,Meghalaya,6.0
 06,15,Mizoram,1.0
 06,15,Nagaland,2.0
+06,15,Orissa,500.0
 06,15,Pondicherry,2.0
 06,15,Punjab,2546.0
 06,15,Rajasthan,11904.0
@@ -3316,6 +3346,7 @@
 06,16,Orissa,96.0
 06,16,Pondicherry,0.0
 06,16,Punjab,778.0
+06,16,Rajasthan,85200.0
 06,16,Sikkim,7.0
 06,16,States_in_India_beyond_the_state_of_enumeration,92985.0
 06,16,Tamil_Nadu,15.0
@@ -3324,6 +3355,7 @@
 06,16,Uttar_Pradesh,2296.0
 06,16,Uttaranchal,231.0
 06,16,West_Bengal,361.0
+06,16,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,154200.0
 06,17,Andaman_and_Nicobar,1.0
 06,17,Andhra_Pradesh,374.0
 06,17,Arunachal_Pradesh,7.0
@@ -3573,6 +3605,7 @@
 08,01,Goa,5.0
 08,01,Gujarat,4719.0
 08,01,Haryana,27199.0
+08,01,Himachal_Pradesh,2001.0
 08,01,In_other_districts_of_the_state_of_enumeration,133806.0
 08,01,Jammu_and_Kashmir,716.0
 08,01,Jharkhand,1272.0
@@ -3660,6 +3693,7 @@
 08,03,Dadra_and_Nagar_Haveli,2.0
 08,03,Daman_and_Diu,2.0
 08,03,Delhi,962.0
+08,03,Elsewhere_in_the_district_of_enumeration,278900.0
 08,03,Goa,17.0
 08,03,Gujarat,1073.0
 08,03,Haryana,6493.0
@@ -3750,6 +3784,7 @@
 08,05,Countries_in_Oceania,7.0
 08,05,Dadra_and_Nagar_Haveli,4.0
 08,05,Daman_and_Diu,0.0
+08,05,Delhi,1004.0
 08,05,Elsewhere_in_the_district_of_enumeration,464587.0
 08,05,Goa,7.0
 08,05,Gujarat,637.0
@@ -3913,6 +3948,7 @@
 08,08,Sikkim,1.0
 08,08,States_in_India_beyond_the_state_of_enumeration,71272.0
 08,08,Tamil_Nadu,9.0
+08,08,Total,250004.0
 08,08,Tripura,28.0
 08,08,Uttar_Pradesh,48127.0
 08,08,Uttaranchal,54.0
@@ -4006,6 +4042,7 @@
 08,10,Tamil_Nadu,42.0
 08,10,Total,303259.0
 08,10,Tripura,1.0
+08,10,Uttar_Pradesh,5006.0
 08,10,Uttaranchal,102.0
 08,10,West_Bengal,339.0
 08,10,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,288744.0
@@ -4078,10 +4115,12 @@
 08,12,In_other_districts_of_the_state_of_enumeration,498548.0
 08,12,Jammu_and_Kashmir,1256.0
 08,12,Jharkhand,2724.0
+08,12,Karnataka,1001.0
 08,12,Kerala,4461.0
 08,12,Lakshadweep,1.0
 08,12,Last_residence_elsewhere_in_India,1422635.0
 08,12,Madhya_Pradesh,13792.0
+08,12,Maharashtra,7200.0
 08,12,Manipur,232.0
 08,12,Meghalaya,164.0
 08,12,Mizoram,10.0
@@ -4117,6 +4156,7 @@
 08,13,Elsewhere_in_the_district_of_enumeration,415220.0
 08,13,Goa,10.0
 08,13,Gujarat,1899.0
+08,13,Haryana,10017.0
 08,13,Himachal_Pradesh,72.0
 08,13,In_other_districts_of_the_state_of_enumeration,207446.0
 08,13,Jammu_and_Kashmir,135.0
@@ -4188,6 +4228,7 @@
 08,14,Tripura,12.0
 08,14,Uttar_Pradesh,2143.0
 08,14,Uttaranchal,74.0
+08,14,West_Bengal,700.0
 08,14,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,779468.0
 08,15,Andaman_and_Nicobar,21.0
 08,15,Andhra_Pradesh,812.0
@@ -4362,6 +4403,7 @@
 08,18,Nagaland,0.0
 08,18,Orissa,74.0
 08,18,Pondicherry,2.0
+08,18,Punjab,100.0
 08,18,Rajasthan,0.0
 08,18,Sikkim,0.0
 08,18,States_in_India_beyond_the_state_of_enumeration,21134.0
@@ -4603,6 +4645,7 @@
 08,23,West_Bengal,201.0
 08,23,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,273276.0
 08,24,Andaman_and_Nicobar,1.0
+08,24,Andhra_Pradesh,2006.0
 08,24,Arunachal_Pradesh,4.0
 08,24,Assam,137.0
 08,24,Bihar,3971.0
@@ -4646,6 +4689,7 @@
 08,24,Uttar_Pradesh,6703.0
 08,24,Uttaranchal,212.0
 08,24,West_Bengal,1065.0
+08,24,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,604009.0
 08,25,Andaman_and_Nicobar,1.0
 08,25,Andhra_Pradesh,532.0
 08,25,Arunachal_Pradesh,0.0
@@ -4706,6 +4750,7 @@
 08,26,Countries_in_Oceania,4.0
 08,26,Dadra_and_Nagar_Haveli,0.0
 08,26,Daman_and_Diu,2.0
+08,26,Delhi,1004.0
 08,26,Elsewhere_in_the_district_of_enumeration,572924.0
 08,26,Goa,25.0
 08,26,Gujarat,16635.0
@@ -4895,6 +4940,7 @@
 08,30,Gujarat,3577.0
 08,30,Haryana,2540.0
 08,30,Himachal_Pradesh,795.0
+08,30,In_other_districts_of_the_state_of_enumeration,200102.0
 08,30,Jammu_and_Kashmir,504.0
 08,30,Jharkhand,471.0
 08,30,Karnataka,266.0
@@ -4916,6 +4962,7 @@
 08,30,Tamil_Nadu,511.0
 08,30,Total,524519.0
 08,30,Tripura,47.0
+08,30,Uttar_Pradesh,24900.0
 08,30,Uttaranchal,1356.0
 08,30,West_Bengal,1796.0
 08,30,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,413962.0
@@ -5066,6 +5113,7 @@
 09,02,Chhattisgarh,144.0
 09,02,Countries_in_Africa,15.0
 09,02,Countries_in_America,15.0
+09,02,Countries_in_Asia_beyond_India,3002.0
 09,02,Countries_in_Europe,8.0
 09,02,Countries_in_Oceania,3.0
 09,02,Dadra_and_Nagar_Haveli,0.0
@@ -5128,6 +5176,7 @@
 09,03,Karnataka,2820.0
 09,03,Kerala,159.0
 09,03,Lakshadweep,0.0
+09,03,Last_residence_elsewhere_in_India,700508.0
 09,03,Madhya_Pradesh,295.0
 09,03,Maharashtra,704.0
 09,03,Manipur,12.0
@@ -5207,11 +5256,13 @@
 09,05,Countries_in_Oceania,1.0
 09,05,Dadra_and_Nagar_Haveli,0.0
 09,05,Daman_and_Diu,0.0
+09,05,Delhi,1000.0
 09,05,Elsewhere_in_the_district_of_enumeration,237598.0
 09,05,Goa,5.0
 09,05,Gujarat,85.0
 09,05,Haryana,1465.0
 09,05,Himachal_Pradesh,88.0
+09,05,In_other_districts_of_the_state_of_enumeration,100150.0
 09,05,Jammu_and_Kashmir,192.0
 09,05,Jharkhand,361.0
 09,05,Karnataka,128.0
@@ -5425,6 +5476,7 @@
 09,10,Andhra_Pradesh,1045.0
 09,10,Arunachal_Pradesh,64.0
 09,10,Assam,912.0
+09,10,Bihar,30059.0
 09,10,Chandigarh,750.0
 09,10,Chhattisgarh,1703.0
 09,10,Countries_in_Africa,231.0
@@ -5456,6 +5508,7 @@
 09,10,Orissa,2022.0
 09,10,Pondicherry,41.0
 09,10,Punjab,4393.0
+09,10,Rajasthan,4006.0
 09,10,Sikkim,30.0
 09,10,States_in_India_beyond_the_state_of_enumeration,162171.0
 09,10,Tamil_Nadu,1408.0
@@ -5510,6 +5563,7 @@
 09,11,Uttar_Pradesh,0.0
 09,11,Uttaranchal,1846.0
 09,11,West_Bengal,1116.0
+09,11,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,699002.0
 09,12,Andaman_and_Nicobar,2.0
 09,12,Andhra_Pradesh,267.0
 09,12,Arunachal_Pradesh,5.0
@@ -5939,6 +5993,7 @@
 09,21,Dadra_and_Nagar_Haveli,0.0
 09,21,Daman_and_Diu,0.0
 09,21,Delhi,361.0
+09,21,Elsewhere_in_the_district_of_enumeration,236400.0
 09,21,Goa,1.0
 09,21,Gujarat,96.0
 09,21,Haryana,731.0
@@ -6058,6 +6113,7 @@
 09,23,Total,815113.0
 09,23,Tripura,9.0
 09,23,Uttar_Pradesh,0.0
+09,23,Uttaranchal,2007.0
 09,23,West_Bengal,1515.0
 09,23,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,756805.0
 09,24,Andaman_and_Nicobar,2.0
@@ -6096,6 +6152,7 @@
 09,24,Orissa,60.0
 09,24,Pondicherry,1.0
 09,24,Punjab,2497.0
+09,24,Rajasthan,400.0
 09,24,Sikkim,3.0
 09,24,States_in_India_beyond_the_state_of_enumeration,31368.0
 09,24,Tamil_Nadu,18.0
@@ -6216,6 +6273,7 @@
 09,27,Goa,74.0
 09,27,Gujarat,1634.0
 09,27,Haryana,2885.0
+09,27,Himachal_Pradesh,1400.0
 09,27,In_other_districts_of_the_state_of_enumeration,529731.0
 09,27,Jammu_and_Kashmir,1551.0
 09,27,Jharkhand,5496.0
@@ -6540,6 +6598,7 @@
 09,34,Himachal_Pradesh,1083.0
 09,34,In_other_districts_of_the_state_of_enumeration,589104.0
 09,34,Jammu_and_Kashmir,616.0
+09,34,Jharkhand,2008.0
 09,34,Karnataka,613.0
 09,34,Kerala,924.0
 09,34,Lakshadweep,0.0
@@ -6562,6 +6621,7 @@
 09,34,Uttar_Pradesh,0.0
 09,34,Uttaranchal,4075.0
 09,34,West_Bengal,5953.0
+09,34,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,824600.0
 09,35,Andaman_and_Nicobar,0.0
 09,35,Andhra_Pradesh,35.0
 09,35,Arunachal_Pradesh,3.0
@@ -6958,6 +7018,7 @@
 09,43,Lakshadweep,0.0
 09,43,Last_residence_elsewhere_in_India,690803.0
 09,43,Madhya_Pradesh,2672.0
+09,43,Maharashtra,1008.0
 09,43,Manipur,0.0
 09,43,Meghalaya,2.0
 09,43,Mizoram,1.0
@@ -7158,6 +7219,7 @@
 09,47,Uttar_Pradesh,0.0
 09,47,Uttaranchal,515.0
 09,47,West_Bengal,1289.0
+09,47,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,500111.0
 09,48,Andaman_and_Nicobar,3.0
 09,48,Andhra_Pradesh,65.0
 09,48,Arunachal_Pradesh,7.0
@@ -7222,7 +7284,9 @@
 09,49,Elsewhere_in_the_district_of_enumeration,641915.0
 09,49,Goa,14.0
 09,49,Gujarat,375.0
+09,49,Haryana,200.0
 09,49,Himachal_Pradesh,101.0
+09,49,In_other_districts_of_the_state_of_enumeration,200489.0
 09,49,Jammu_and_Kashmir,35.0
 09,49,Jharkhand,3782.0
 09,49,Karnataka,47.0
@@ -7395,6 +7459,7 @@
 09,53,Chhattisgarh,1618.0
 09,53,Countries_in_Africa,2.0
 09,53,Countries_in_America,10.0
+09,53,Countries_in_Asia_beyond_India,800.0
 09,53,Countries_in_Europe,4.0
 09,53,Countries_in_Oceania,4.0
 09,53,Dadra_and_Nagar_Haveli,0.0
@@ -7411,6 +7476,7 @@
 09,53,Karnataka,59.0
 09,53,Kerala,84.0
 09,53,Lakshadweep,0.0
+09,53,Last_residence_elsewhere_in_India,687001.0
 09,53,Madhya_Pradesh,510.0
 09,53,Maharashtra,617.0
 09,53,Manipur,5.0
@@ -7445,6 +7511,7 @@
 09,54,Dadra_and_Nagar_Haveli,0.0
 09,54,Daman_and_Diu,2.0
 09,54,Delhi,96.0
+09,54,Elsewhere_in_the_district_of_enumeration,400786.0
 09,54,Goa,3.0
 09,54,Gujarat,105.0
 09,54,Haryana,30.0
@@ -7796,6 +7863,7 @@
 09,61,Uttar_Pradesh,0.0
 09,61,Uttaranchal,165.0
 09,61,West_Bengal,1472.0
+09,61,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1008659.0
 09,62,Andaman_and_Nicobar,2.0
 09,62,Andhra_Pradesh,24.0
 09,62,Arunachal_Pradesh,1.0
@@ -7885,6 +7953,7 @@
 09,63,Total,722387.0
 09,63,Tripura,8.0
 09,63,Uttar_Pradesh,0.0
+09,63,Uttaranchal,100.0
 09,63,West_Bengal,1669.0
 09,63,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,679326.0
 09,64,Andaman_and_Nicobar,3.0
@@ -7913,6 +7982,7 @@
 09,64,Karnataka,69.0
 09,64,Kerala,118.0
 09,64,Lakshadweep,0.0
+09,64,Last_residence_elsewhere_in_India,1050061.0
 09,64,Madhya_Pradesh,1406.0
 09,64,Maharashtra,1712.0
 09,64,Manipur,6.0
@@ -8092,6 +8162,7 @@
 09,68,Himachal_Pradesh,8.0
 09,68,In_other_districts_of_the_state_of_enumeration,122313.0
 09,68,Jammu_and_Kashmir,23.0
+09,68,Jharkhand,700.0
 09,68,Karnataka,16.0
 09,68,Kerala,157.0
 09,68,Lakshadweep,0.0
@@ -8151,6 +8222,7 @@
 09,69,Orissa,172.0
 09,69,Pondicherry,0.0
 09,69,Punjab,91.0
+09,69,Rajasthan,200.0
 09,69,Sikkim,0.0
 09,69,States_in_India_beyond_the_state_of_enumeration,25931.0
 09,69,Tamil_Nadu,20.0
@@ -8456,11 +8528,13 @@
 10,06,Gujarat,130.0
 10,06,Haryana,70.0
 10,06,Himachal_Pradesh,1.0
+10,06,In_other_districts_of_the_state_of_enumeration,100034.0
 10,06,Jammu_and_Kashmir,5.0
 10,06,Jharkhand,640.0
 10,06,Karnataka,7.0
 10,06,Kerala,16.0
 10,06,Lakshadweep,0.0
+10,06,Last_residence_elsewhere_in_India,400431.0
 10,06,Madhya_Pradesh,14.0
 10,06,Maharashtra,32.0
 10,06,Manipur,2.0
@@ -8663,6 +8737,7 @@
 10,10,Uttar_Pradesh,4869.0
 10,10,Uttaranchal,5091.0
 10,10,West_Bengal,34097.0
+10,10,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,400452.0
 10,11,Andaman_and_Nicobar,0.0
 10,11,Andhra_Pradesh,221.0
 10,11,Arunachal_Pradesh,5.0
@@ -8724,6 +8799,7 @@
 10,12,Dadra_and_Nagar_Haveli,0.0
 10,12,Daman_and_Diu,42.0
 10,12,Delhi,231.0
+10,12,Elsewhere_in_the_district_of_enumeration,210012.0
 10,12,Goa,3.0
 10,12,Gujarat,64.0
 10,12,Haryana,5863.0
@@ -8734,6 +8810,7 @@
 10,12,Karnataka,9.0
 10,12,Kerala,4.0
 10,12,Lakshadweep,0.0
+10,12,Last_residence_elsewhere_in_India,350000.0
 10,12,Madhya_Pradesh,74.0
 10,12,Maharashtra,33.0
 10,12,Manipur,0.0
@@ -8752,6 +8829,7 @@
 10,12,Uttar_Pradesh,35431.0
 10,12,Uttaranchal,723.0
 10,12,West_Bengal,373.0
+10,12,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,300982.0
 10,13,Andaman_and_Nicobar,2.0
 10,13,Andhra_Pradesh,6528.0
 10,13,Arunachal_Pradesh,16.0
@@ -8853,6 +8931,7 @@
 10,15,Chhattisgarh,47.0
 10,15,Countries_in_Africa,11.0
 10,15,Countries_in_America,12.0
+10,15,Countries_in_Asia_beyond_India,500.0
 10,15,Countries_in_Europe,8.0
 10,15,Countries_in_Oceania,2.0
 10,15,Dadra_and_Nagar_Haveli,2.0
@@ -8860,6 +8939,7 @@
 10,15,Delhi,266.0
 10,15,Elsewhere_in_the_district_of_enumeration,373231.0
 10,15,Goa,1.0
+10,15,Gujarat,300.0
 10,15,Haryana,101.0
 10,15,Himachal_Pradesh,16.0
 10,15,In_other_districts_of_the_state_of_enumeration,112181.0
@@ -8897,6 +8977,7 @@
 10,16,Chhattisgarh,142.0
 10,16,Countries_in_Africa,237.0
 10,16,Countries_in_America,46.0
+10,16,Countries_in_Asia_beyond_India,500.0
 10,16,Countries_in_Europe,68.0
 10,16,Countries_in_Oceania,80.0
 10,16,Dadra_and_Nagar_Haveli,15.0
@@ -9208,6 +9289,7 @@
 10,22,Uttar_Pradesh,1724.0
 10,22,Uttaranchal,29.0
 10,22,West_Bengal,4348.0
+10,22,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,500385.0
 10,23,Andaman_and_Nicobar,0.0
 10,23,Andhra_Pradesh,7.0
 10,23,Arunachal_Pradesh,2.0
@@ -9246,6 +9328,7 @@
 10,23,Punjab,15.0
 10,23,Rajasthan,16.0
 10,23,Sikkim,2.0
+10,23,States_in_India_beyond_the_state_of_enumeration,37100.0
 10,23,Tamil_Nadu,2.0
 10,23,Total,395969.0
 10,23,Tripura,1.0
@@ -9452,6 +9535,7 @@
 10,28,Dadra_and_Nagar_Haveli,1.0
 10,28,Daman_and_Diu,1.0
 10,28,Delhi,1642.0
+10,28,Elsewhere_in_the_district_of_enumeration,729002.0
 10,28,Goa,25.0
 10,28,Gujarat,2183.0
 10,28,Haryana,581.0
@@ -9485,6 +9569,7 @@
 10,29,Andaman_and_Nicobar,0.0
 10,29,Andhra_Pradesh,9.0
 10,29,Arunachal_Pradesh,2.0
+10,29,Assam,100.0
 10,29,Bihar,0.0
 10,29,Chandigarh,7.0
 10,29,Chhattisgarh,28.0
@@ -9544,6 +9629,7 @@
 10,30,Delhi,48.0
 10,30,Elsewhere_in_the_district_of_enumeration,245487.0
 10,30,Goa,0.0
+10,30,Gujarat,300.0
 10,30,Haryana,103.0
 10,30,Himachal_Pradesh,1.0
 10,30,In_other_districts_of_the_state_of_enumeration,83661.0
@@ -9552,6 +9638,7 @@
 10,30,Karnataka,21.0
 10,30,Kerala,89.0
 10,30,Lakshadweep,0.0
+10,30,Last_residence_elsewhere_in_India,360053.0
 10,30,Madhya_Pradesh,126.0
 10,30,Maharashtra,77.0
 10,30,Manipur,8.0
@@ -9637,6 +9724,7 @@
 10,32,Gujarat,271.0
 10,32,Haryana,755.0
 10,32,Himachal_Pradesh,14.0
+10,32,In_other_districts_of_the_state_of_enumeration,121008.0
 10,32,Jammu_and_Kashmir,22.0
 10,32,Jharkhand,23591.0
 10,32,Karnataka,22.0
@@ -9988,6 +10076,7 @@
 11,03,Andhra_Pradesh,17.0
 11,03,Arunachal_Pradesh,37.0
 11,03,Assam,310.0
+11,03,Bihar,2002.0
 11,03,Chandigarh,9.0
 11,03,Chhattisgarh,11.0
 11,03,Countries_in_Africa,6.0
@@ -10031,6 +10120,7 @@
 11,03,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,29052.0
 11,04,Andaman_and_Nicobar,3.0
 11,04,Andhra_Pradesh,134.0
+11,04,Arunachal_Pradesh,100.0
 11,04,Assam,849.0
 11,04,Bihar,7020.0
 11,04,Chandigarh,28.0
@@ -10096,6 +10186,7 @@
 12,01,Himachal_Pradesh,29.0
 12,01,In_other_districts_of_the_state_of_enumeration,1788.0
 12,01,Jammu_and_Kashmir,41.0
+12,01,Jharkhand,100.0
 12,01,Karnataka,66.0
 12,01,Kerala,61.0
 12,01,Lakshadweep,0.0
@@ -10141,6 +10232,7 @@
 12,02,Himachal_Pradesh,75.0
 12,02,In_other_districts_of_the_state_of_enumeration,3903.0
 12,02,Jammu_and_Kashmir,114.0
+12,02,Jharkhand,100.0
 12,02,Karnataka,49.0
 12,02,Kerala,151.0
 12,02,Lakshadweep,0.0
@@ -10253,6 +10345,7 @@
 12,04,Total,67614.0
 12,04,Tripura,233.0
 12,04,Uttar_Pradesh,1218.0
+12,04,Uttaranchal,200.0
 12,04,West_Bengal,3252.0
 12,04,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,38891.0
 12,05,Andaman_and_Nicobar,0.0
@@ -10417,6 +10510,7 @@
 12,08,Jammu_and_Kashmir,11.0
 12,08,Jharkhand,45.0
 12,08,Karnataka,2.0
+12,08,Kerala,100.0
 12,08,Lakshadweep,0.0
 12,08,Last_residence_elsewhere_in_India,27451.0
 12,08,Madhya_Pradesh,9.0
@@ -10430,6 +10524,7 @@
 12,08,Punjab,34.0
 12,08,Rajasthan,61.0
 12,08,Sikkim,16.0
+12,08,States_in_India_beyond_the_state_of_enumeration,10500.0
 12,08,Tamil_Nadu,20.0
 12,08,Total,28209.0
 12,08,Tripura,35.0
@@ -10479,6 +10574,7 @@
 12,09,Tamil_Nadu,1.0
 12,09,Total,9416.0
 12,09,Tripura,33.0
+12,09,Uttar_Pradesh,200.0
 12,09,Uttaranchal,21.0
 12,09,West_Bengal,161.0
 12,09,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,5762.0
@@ -10920,6 +11016,7 @@
 13,06,Jammu_and_Kashmir,114.0
 13,06,Jharkhand,898.0
 13,06,Karnataka,92.0
+13,06,Kerala,500.0
 13,06,Lakshadweep,0.0
 13,06,Last_residence_elsewhere_in_India,131749.0
 13,06,Madhya_Pradesh,160.0
@@ -11299,6 +11396,7 @@
 14,06,Orissa,26.0
 14,06,Pondicherry,0.0
 14,06,Punjab,81.0
+14,06,Rajasthan,400.0
 14,06,Sikkim,14.0
 14,06,States_in_India_beyond_the_state_of_enumeration,3623.0
 14,06,Tamil_Nadu,47.0
@@ -11579,6 +11677,7 @@
 15,03,States_in_India_beyond_the_state_of_enumeration,20326.0
 15,03,Tamil_Nadu,72.0
 15,03,Total,133678.0
+15,03,Tripura,800.0
 15,03,Uttar_Pradesh,304.0
 15,03,Uttaranchal,114.0
 15,03,West_Bengal,468.0
@@ -11855,6 +11954,7 @@
 16,01,Tamil_Nadu,120.0
 16,01,Total,492430.0
 16,01,Tripura,0.0
+16,01,Uttar_Pradesh,1006.0
 16,01,Uttaranchal,304.0
 16,01,West_Bengal,3028.0
 16,01,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,343231.0
@@ -12681,6 +12781,7 @@
 18,08,States_in_India_beyond_the_state_of_enumeration,13634.0
 18,08,Tamil_Nadu,23.0
 18,08,Total,362890.0
+18,08,Tripura,200.0
 18,08,Uttar_Pradesh,601.0
 18,08,Uttaranchal,17.0
 18,08,West_Bengal,2848.0
@@ -12948,6 +13049,7 @@
 18,14,Meghalaya,435.0
 18,14,Mizoram,34.0
 18,14,Nagaland,279.0
+18,14,Orissa,800.0
 18,14,Pondicherry,1.0
 18,14,Punjab,419.0
 18,14,Rajasthan,1430.0
@@ -13005,6 +13107,7 @@
 18,15,Uttar_Pradesh,4717.0
 18,15,Uttaranchal,152.0
 18,15,West_Bengal,2749.0
+18,15,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,300529.0
 18,16,Andaman_and_Nicobar,1.0
 18,16,Andhra_Pradesh,189.0
 18,16,Arunachal_Pradesh,224.0
@@ -13027,6 +13130,7 @@
 18,16,Himachal_Pradesh,14.0
 18,16,In_other_districts_of_the_state_of_enumeration,37855.0
 18,16,Jammu_and_Kashmir,35.0
+18,16,Jharkhand,500.0
 18,16,Karnataka,32.0
 18,16,Kerala,99.0
 18,16,Lakshadweep,0.0
@@ -13128,6 +13232,7 @@
 18,18,Manipur,159.0
 18,18,Meghalaya,191.0
 18,18,Mizoram,25.0
+18,18,Nagaland,5400.0
 18,18,Orissa,139.0
 18,18,Pondicherry,1.0
 18,18,Punjab,89.0
@@ -13156,6 +13261,7 @@
 18,19,Dadra_and_Nagar_Haveli,0.0
 18,19,Daman_and_Diu,0.0
 18,19,Delhi,45.0
+18,19,Elsewhere_in_the_district_of_enumeration,161800.0
 18,19,Goa,2.0
 18,19,Gujarat,17.0
 18,19,Haryana,61.0
@@ -13212,6 +13318,7 @@
 18,20,Karnataka,8.0
 18,20,Kerala,46.0
 18,20,Lakshadweep,0.0
+18,20,Last_residence_elsewhere_in_India,60078.0
 18,20,Madhya_Pradesh,30.0
 18,20,Maharashtra,14.0
 18,20,Manipur,551.0
@@ -13246,6 +13353,7 @@
 18,21,Dadra_and_Nagar_Haveli,0.0
 18,21,Daman_and_Diu,0.0
 18,21,Delhi,124.0
+18,21,Elsewhere_in_the_district_of_enumeration,282800.0
 18,21,Goa,0.0
 18,21,Gujarat,60.0
 18,21,Haryana,223.0
@@ -13408,6 +13516,7 @@
 19,01,Sikkim,3076.0
 19,01,States_in_India_beyond_the_state_of_enumeration,99075.0
 19,01,Tamil_Nadu,552.0
+19,01,Total,440091.0
 19,01,Tripura,548.0
 19,01,Uttar_Pradesh,9056.0
 19,01,Uttaranchal,719.0
@@ -13422,6 +13531,7 @@
 19,02,Chhattisgarh,481.0
 19,02,Countries_in_Africa,18.0
 19,02,Countries_in_America,26.0
+19,02,Countries_in_Asia_beyond_India,184900.0
 19,02,Countries_in_Europe,15.0
 19,02,Countries_in_Oceania,8.0
 19,02,Dadra_and_Nagar_Haveli,1.0
@@ -13498,6 +13608,7 @@
 19,03,Sikkim,74.0
 19,03,States_in_India_beyond_the_state_of_enumeration,41914.0
 19,03,Tamil_Nadu,131.0
+19,03,Total,754000.0
 19,03,Tripura,373.0
 19,03,Uttar_Pradesh,1358.0
 19,03,Uttaranchal,72.0
@@ -13619,6 +13730,7 @@
 19,06,Jammu_and_Kashmir,164.0
 19,06,Jharkhand,9070.0
 19,06,Karnataka,90.0
+19,06,Kerala,100.0
 19,06,Lakshadweep,0.0
 19,06,Last_residence_elsewhere_in_India,797281.0
 19,06,Madhya_Pradesh,132.0
@@ -13754,6 +13866,7 @@
 19,09,Himachal_Pradesh,185.0
 19,09,In_other_districts_of_the_state_of_enumeration,536689.0
 19,09,Jammu_and_Kashmir,542.0
+19,09,Jharkhand,112000.0
 19,09,Karnataka,477.0
 19,09,Kerala,789.0
 19,09,Lakshadweep,0.0
@@ -13764,6 +13877,7 @@
 19,09,Meghalaya,120.0
 19,09,Mizoram,6.0
 19,09,Nagaland,78.0
+19,09,Orissa,15001.0
 19,09,Pondicherry,10.0
 19,09,Punjab,3650.0
 19,09,Rajasthan,3111.0
@@ -13823,6 +13937,7 @@
 19,10,West_Bengal,0.0
 19,10,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1182476.0
 19,11,Andaman_and_Nicobar,322.0
+19,11,Andhra_Pradesh,4100.0
 19,11,Arunachal_Pradesh,371.0
 19,11,Assam,13757.0
 19,11,Bihar,168715.0
@@ -13866,6 +13981,7 @@
 19,11,Uttar_Pradesh,53274.0
 19,11,Uttaranchal,1324.0
 19,11,West_Bengal,0.0
+19,11,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,2700093.0
 19,12,Andaman_and_Nicobar,77.0
 19,12,Andhra_Pradesh,2373.0
 19,12,Arunachal_Pradesh,40.0
@@ -13952,6 +14068,7 @@
 19,13,Sikkim,12.0
 19,13,States_in_India_beyond_the_state_of_enumeration,18138.0
 19,13,Tamil_Nadu,30.0
+19,13,Total,1003354.0
 19,13,Tripura,74.0
 19,13,Uttar_Pradesh,1203.0
 19,13,Uttaranchal,20.0
@@ -14027,6 +14144,7 @@
 19,15,Jammu_and_Kashmir,288.0
 19,15,Jharkhand,31860.0
 19,15,Karnataka,433.0
+19,15,Kerala,400.0
 19,15,Lakshadweep,1.0
 19,15,Last_residence_elsewhere_in_India,2734215.0
 19,15,Madhya_Pradesh,921.0
@@ -14190,6 +14308,7 @@
 20,01,Andhra_Pradesh,14.0
 20,01,Arunachal_Pradesh,2.0
 20,01,Assam,9.0
+20,01,Bihar,10037.0
 20,01,Chandigarh,67.0
 20,01,Chhattisgarh,4231.0
 20,01,Countries_in_Africa,9.0
@@ -14441,6 +14560,7 @@
 20,06,Karnataka,81.0
 20,06,Kerala,62.0
 20,06,Lakshadweep,2.0
+20,06,Last_residence_elsewhere_in_India,500910.0
 20,06,Madhya_Pradesh,195.0
 20,06,Maharashtra,171.0
 20,06,Manipur,6.0
@@ -14532,6 +14652,7 @@
 20,08,Karnataka,8.0
 20,08,Kerala,78.0
 20,08,Lakshadweep,0.0
+20,08,Last_residence_elsewhere_in_India,270084.0
 20,08,Madhya_Pradesh,93.0
 20,08,Maharashtra,182.0
 20,08,Manipur,2.0
@@ -14600,6 +14721,7 @@
 20,10,Andaman_and_Nicobar,2.0
 20,10,Andhra_Pradesh,39.0
 20,10,Arunachal_Pradesh,2.0
+20,10,Assam,100.0
 20,10,Bihar,4415.0
 20,10,Chandigarh,9.0
 20,10,Chhattisgarh,9.0
@@ -14657,6 +14779,7 @@
 20,11,Dadra_and_Nagar_Haveli,0.0
 20,11,Daman_and_Diu,0.0
 20,11,Delhi,38.0
+20,11,Elsewhere_in_the_district_of_enumeration,356000.0
 20,11,Goa,0.0
 20,11,Gujarat,86.0
 20,11,Haryana,28.0
@@ -14693,6 +14816,7 @@
 20,12,Assam,503.0
 20,12,Bihar,244824.0
 20,12,Chandigarh,90.0
+20,12,Chhattisgarh,2700.0
 20,12,Countries_in_Africa,32.0
 20,12,Countries_in_America,28.0
 20,12,Countries_in_Asia_beyond_India,2205.0
@@ -14730,6 +14854,7 @@
 20,12,Tripura,68.0
 20,12,Uttar_Pradesh,32548.0
 20,12,Uttaranchal,193.0
+20,12,West_Bengal,70300.0
 20,12,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,430942.0
 20,13,Andaman_and_Nicobar,6.0
 20,13,Andhra_Pradesh,838.0
@@ -14803,6 +14928,7 @@
 20,14,Karnataka,420.0
 20,14,Kerala,1270.0
 20,14,Lakshadweep,2.0
+20,14,Last_residence_elsewhere_in_India,770015.0
 20,14,Madhya_Pradesh,1207.0
 20,14,Maharashtra,1289.0
 20,14,Manipur,102.0
@@ -14956,6 +15082,7 @@
 20,17,Tamil_Nadu,277.0
 20,17,Total,531650.0
 20,17,Tripura,23.0
+20,17,Uttar_Pradesh,4004.0
 20,17,Uttaranchal,61.0
 20,17,West_Bengal,25672.0
 20,17,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,429133.0
@@ -14977,6 +15104,7 @@
 20,18,Elsewhere_in_the_district_of_enumeration,216135.0
 20,18,Goa,42.0
 20,18,Gujarat,1534.0
+20,18,Haryana,600.0
 20,18,Himachal_Pradesh,153.0
 20,18,In_other_districts_of_the_state_of_enumeration,43783.0
 20,18,Jammu_and_Kashmir,267.0
@@ -15019,6 +15147,7 @@
 21,01,Dadra_and_Nagar_Haveli,0.0
 21,01,Daman_and_Diu,0.0
 21,01,Delhi,55.0
+21,01,Elsewhere_in_the_district_of_enumeration,300181.0
 21,01,Goa,0.0
 21,01,Gujarat,289.0
 21,01,Haryana,381.0
@@ -15077,6 +15206,7 @@
 21,02,Lakshadweep,0.0
 21,02,Last_residence_elsewhere_in_India,172223.0
 21,02,Madhya_Pradesh,1115.0
+21,02,Maharashtra,400.0
 21,02,Manipur,10.0
 21,02,Meghalaya,2.0
 21,02,Mizoram,3.0
@@ -15231,6 +15361,7 @@
 21,05,Uttar_Pradesh,7189.0
 21,05,Uttaranchal,252.0
 21,05,West_Bengal,16130.0
+21,05,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,500133.0
 21,06,Andaman_and_Nicobar,2.0
 21,06,Andhra_Pradesh,222.0
 21,06,Arunachal_Pradesh,0.0
@@ -15625,6 +15756,7 @@
 21,14,Karnataka,18.0
 21,14,Kerala,36.0
 21,14,Lakshadweep,0.0
+21,14,Last_residence_elsewhere_in_India,300318.0
 21,14,Madhya_Pradesh,95.0
 21,14,Maharashtra,82.0
 21,14,Manipur,7.0
@@ -15638,6 +15770,7 @@
 21,14,Sikkim,2.0
 21,14,States_in_India_beyond_the_state_of_enumeration,3410.0
 21,14,Tamil_Nadu,112.0
+21,14,Total,300396.0
 21,14,Tripura,1.0
 21,14,Uttar_Pradesh,298.0
 21,14,Uttaranchal,2.0
@@ -15679,6 +15812,7 @@
 21,15,Orissa,0.0
 21,15,Pondicherry,2.0
 21,15,Punjab,303.0
+21,15,Rajasthan,400.0
 21,15,Sikkim,3.0
 21,15,States_in_India_beyond_the_state_of_enumeration,16592.0
 21,15,Tamil_Nadu,347.0
@@ -15738,6 +15872,7 @@
 21,17,Andhra_Pradesh,11052.0
 21,17,Arunachal_Pradesh,36.0
 21,17,Assam,548.0
+21,17,Bihar,5004.0
 21,17,Chandigarh,93.0
 21,17,Chhattisgarh,1114.0
 21,17,Countries_in_Africa,30.0
@@ -15753,6 +15888,7 @@
 21,17,Gujarat,902.0
 21,17,Haryana,437.0
 21,17,Himachal_Pradesh,90.0
+21,17,In_other_districts_of_the_state_of_enumeration,436600.0
 21,17,Jammu_and_Kashmir,178.0
 21,17,Jharkhand,3935.0
 21,17,Karnataka,383.0
@@ -15908,6 +16044,7 @@
 21,20,Punjab,11.0
 21,20,Rajasthan,23.0
 21,20,Sikkim,1.0
+21,20,States_in_India_beyond_the_state_of_enumeration,17700.0
 21,20,Tamil_Nadu,52.0
 21,20,Total,128211.0
 21,20,Tripura,4.0
@@ -16151,6 +16288,7 @@
 21,26,Assam,47.0
 21,26,Bihar,587.0
 21,26,Chandigarh,5.0
+21,26,Chhattisgarh,4008.0
 21,26,Countries_in_Africa,1.0
 21,26,Countries_in_America,0.0
 21,26,Countries_in_Asia_beyond_India,106.0
@@ -16189,6 +16327,7 @@
 21,26,Uttar_Pradesh,333.0
 21,26,Uttaranchal,10.0
 21,26,West_Bengal,314.0
+21,26,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,381001.0
 21,27,Andaman_and_Nicobar,2.0
 21,27,Andhra_Pradesh,17694.0
 21,27,Arunachal_Pradesh,6.0
@@ -16229,6 +16368,7 @@
 21,27,Sikkim,1.0
 21,27,States_in_India_beyond_the_state_of_enumeration,20973.0
 21,27,Tamil_Nadu,173.0
+21,27,Total,239002.0
 21,27,Tripura,0.0
 21,27,Uttar_Pradesh,509.0
 21,27,Uttaranchal,14.0
@@ -16238,6 +16378,7 @@
 21,28,Andhra_Pradesh,1812.0
 21,28,Arunachal_Pradesh,1.0
 21,28,Assam,39.0
+21,28,Bihar,800.0
 21,28,Chandigarh,61.0
 21,28,Chhattisgarh,17230.0
 21,28,Countries_in_Africa,10.0
@@ -16618,6 +16759,7 @@
 22,06,Delhi,313.0
 22,06,Elsewhere_in_the_district_of_enumeration,280820.0
 22,06,Goa,3.0
+22,06,Gujarat,200.0
 22,06,Haryana,442.0
 22,06,Himachal_Pradesh,71.0
 22,06,In_other_districts_of_the_state_of_enumeration,97186.0
@@ -16645,6 +16787,7 @@
 22,06,Uttar_Pradesh,2203.0
 22,06,Uttaranchal,78.0
 22,06,West_Bengal,1036.0
+22,06,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,378006.0
 22,07,Andaman_and_Nicobar,2.0
 22,07,Andhra_Pradesh,2788.0
 22,07,Arunachal_Pradesh,4.0
@@ -16683,6 +16826,7 @@
 22,07,Punjab,645.0
 22,07,Rajasthan,938.0
 22,07,Sikkim,3.0
+22,07,States_in_India_beyond_the_state_of_enumeration,74200.0
 22,07,Tamil_Nadu,398.0
 22,07,Total,627485.0
 22,07,Tripura,16.0
@@ -16907,6 +17051,7 @@
 22,12,Meghalaya,0.0
 22,12,Mizoram,0.0
 22,12,Nagaland,0.0
+22,12,Orissa,20010.0
 22,12,Pondicherry,0.0
 22,12,Punjab,210.0
 22,12,Rajasthan,298.0
@@ -16961,6 +17106,7 @@
 22,13,Tamil_Nadu,47.0
 22,13,Total,226838.0
 22,13,Tripura,1.0
+22,13,Uttar_Pradesh,800.0
 22,13,Uttaranchal,31.0
 22,13,West_Bengal,301.0
 22,13,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,216885.0
@@ -17098,6 +17244,7 @@
 22,16,Tamil_Nadu,330.0
 22,16,Total,176312.0
 22,16,Tripura,11.0
+22,16,Uttar_Pradesh,3001.0
 22,16,Uttaranchal,67.0
 22,16,West_Bengal,723.0
 22,16,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,151211.0
@@ -17165,6 +17312,7 @@
 23,02,Elsewhere_in_the_district_of_enumeration,282296.0
 23,02,Goa,1.0
 23,02,Gujarat,201.0
+23,02,Haryana,200.0
 23,02,Himachal_Pradesh,34.0
 23,02,In_other_districts_of_the_state_of_enumeration,82393.0
 23,02,Jammu_and_Kashmir,26.0
@@ -17282,6 +17430,7 @@
 23,04,Tripura,64.0
 23,04,Uttar_Pradesh,64020.0
 23,04,Uttaranchal,2122.0
+23,04,West_Bengal,1900.0
 23,04,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,312554.0
 23,05,Andaman_and_Nicobar,0.0
 23,05,Andhra_Pradesh,13.0
@@ -17379,6 +17528,7 @@
 23,07,Andhra_Pradesh,262.0
 23,07,Arunachal_Pradesh,3.0
 23,07,Assam,38.0
+23,07,Bihar,700.0
 23,07,Chandigarh,35.0
 23,07,Chhattisgarh,1494.0
 23,07,Countries_in_Africa,0.0
@@ -17548,6 +17698,7 @@
 23,10,Orissa,36.0
 23,10,Pondicherry,0.0
 23,10,Punjab,88.0
+23,10,Rajasthan,100.0
 23,10,Sikkim,1.0
 23,10,States_in_India_beyond_the_state_of_enumeration,16936.0
 23,10,Tamil_Nadu,30.0
@@ -17596,11 +17747,13 @@
 23,11,Rajasthan,1011.0
 23,11,Sikkim,20.0
 23,11,States_in_India_beyond_the_state_of_enumeration,42973.0
+23,11,Tamil_Nadu,200.0
 23,11,Total,603927.0
 23,11,Tripura,16.0
 23,11,Uttar_Pradesh,29959.0
 23,11,Uttaranchal,414.0
 23,11,West_Bengal,669.0
+23,11,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,560011.0
 23,12,Andaman_and_Nicobar,0.0
 23,12,Andhra_Pradesh,96.0
 23,12,Arunachal_Pradesh,8.0
@@ -17820,7 +17973,10 @@
 23,16,Nagaland,3.0
 23,16,Orissa,1909.0
 23,16,Pondicherry,0.0
+23,16,Punjab,400.0
+23,16,Rajasthan,700.0
 23,16,Sikkim,0.0
+23,16,States_in_India_beyond_the_state_of_enumeration,80000.0
 23,16,Tamil_Nadu,101.0
 23,16,Total,486428.0
 23,16,Tripura,3.0
@@ -18139,6 +18295,7 @@
 23,23,Nagaland,8.0
 23,23,Orissa,230.0
 23,23,Pondicherry,2.0
+23,23,Punjab,300.0
 23,23,Rajasthan,3725.0
 23,23,Sikkim,0.0
 23,23,States_in_India_beyond_the_state_of_enumeration,22038.0
@@ -18147,6 +18304,7 @@
 23,23,Tripura,3.0
 23,23,Uttar_Pradesh,5032.0
 23,23,Uttaranchal,197.0
+23,23,West_Bengal,600.0
 23,23,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,447039.0
 23,24,Andaman_and_Nicobar,0.0
 23,24,Andhra_Pradesh,327.0
@@ -18193,6 +18351,7 @@
 23,24,Uttar_Pradesh,1492.0
 23,24,Uttaranchal,18.0
 23,24,West_Bengal,205.0
+23,24,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,340025.0
 23,25,Andaman_and_Nicobar,0.0
 23,25,Andhra_Pradesh,519.0
 23,25,Arunachal_Pradesh,1.0
@@ -18279,6 +18438,7 @@
 23,26,Sikkim,63.0
 23,26,States_in_India_beyond_the_state_of_enumeration,191497.0
 23,26,Tamil_Nadu,1836.0
+23,26,Total,856300.0
 23,26,Tripura,46.0
 23,26,Uttar_Pradesh,49190.0
 23,26,Uttaranchal,1948.0
@@ -18345,6 +18505,7 @@
 23,28,Dadra_and_Nagar_Haveli,3.0
 23,28,Daman_and_Diu,0.0
 23,28,Delhi,33.0
+23,28,Elsewhere_in_the_district_of_enumeration,210094.0
 23,28,Goa,2.0
 23,28,Gujarat,1411.0
 23,28,Haryana,39.0
@@ -18422,6 +18583,7 @@
 23,29,West_Bengal,474.0
 23,29,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,433556.0
 23,30,Andaman_and_Nicobar,0.0
+23,30,Andhra_Pradesh,100.0
 23,30,Arunachal_Pradesh,0.0
 23,30,Assam,7.0
 23,30,Bihar,699.0
@@ -18532,6 +18694,7 @@
 23,32,Gujarat,3919.0
 23,32,Haryana,2450.0
 23,32,Himachal_Pradesh,731.0
+23,32,In_other_districts_of_the_state_of_enumeration,333600.0
 23,32,Jammu_and_Kashmir,747.0
 23,32,Jharkhand,1718.0
 23,32,Karnataka,2772.0
@@ -18731,6 +18894,7 @@
 23,36,Orissa,24.0
 23,36,Pondicherry,0.0
 23,36,Punjab,41.0
+23,36,Rajasthan,400.0
 23,36,Sikkim,1.0
 23,36,States_in_India_beyond_the_state_of_enumeration,6311.0
 23,36,Tamil_Nadu,24.0
@@ -18826,14 +18990,18 @@
 23,38,Sikkim,0.0
 23,38,States_in_India_beyond_the_state_of_enumeration,24556.0
 23,38,Tamil_Nadu,113.0
+23,38,Total,322800.0
 23,38,Tripura,0.0
 23,38,Uttar_Pradesh,11902.0
 23,38,Uttaranchal,158.0
+23,38,West_Bengal,1000.0
 23,38,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,295803.0
 23,39,Andaman_and_Nicobar,15.0
 23,39,Andhra_Pradesh,2780.0
 23,39,Arunachal_Pradesh,47.0
+23,39,Assam,500.0
 23,39,Bihar,6852.0
+23,39,Chandigarh,200.0
 23,39,Chhattisgarh,12388.0
 23,39,Countries_in_Africa,58.0
 23,39,Countries_in_America,19.0
@@ -18843,6 +19011,7 @@
 23,39,Dadra_and_Nagar_Haveli,3.0
 23,39,Daman_and_Diu,0.0
 23,39,Delhi,1597.0
+23,39,Elsewhere_in_the_district_of_enumeration,273100.0
 23,39,Goa,152.0
 23,39,Gujarat,2139.0
 23,39,Haryana,1534.0
@@ -18893,6 +19062,7 @@
 23,40,Gujarat,108.0
 23,40,Haryana,42.0
 23,40,Himachal_Pradesh,4.0
+23,40,In_other_districts_of_the_state_of_enumeration,80050.0
 23,40,Jammu_and_Kashmir,16.0
 23,40,Jharkhand,54.0
 23,40,Karnataka,35.0
@@ -19014,6 +19184,7 @@
 23,43,Andhra_Pradesh,469.0
 23,43,Arunachal_Pradesh,2.0
 23,43,Assam,78.0
+23,43,Bihar,2009.0
 23,43,Chandigarh,24.0
 23,43,Chhattisgarh,4532.0
 23,43,Countries_in_Africa,4.0
@@ -19104,6 +19275,7 @@
 23,45,Andaman_and_Nicobar,1.0
 23,45,Andhra_Pradesh,344.0
 23,45,Arunachal_Pradesh,0.0
+23,45,Assam,100.0
 23,45,Bihar,607.0
 23,45,Chandigarh,2.0
 23,45,Chhattisgarh,11850.0
@@ -19414,6 +19586,7 @@
 24,06,Punjab,829.0
 24,06,Rajasthan,14060.0
 24,06,Sikkim,25.0
+24,06,States_in_India_beyond_the_state_of_enumeration,45001.0
 24,06,Tamil_Nadu,841.0
 24,06,Total,655029.0
 24,06,Tripura,131.0
@@ -19424,6 +19597,7 @@
 24,07,Andaman_and_Nicobar,27.0
 24,07,Andhra_Pradesh,4012.0
 24,07,Arunachal_Pradesh,25.0
+24,07,Assam,1007.0
 24,07,Bihar,15747.0
 24,07,Chandigarh,382.0
 24,07,Chhattisgarh,824.0
@@ -19458,6 +19632,7 @@
 24,07,Punjab,4093.0
 24,07,Rajasthan,127272.0
 24,07,Sikkim,33.0
+24,07,States_in_India_beyond_the_state_of_enumeration,401200.0
 24,07,Tamil_Nadu,6930.0
 24,07,Total,2180885.0
 24,07,Tripura,68.0
@@ -19474,6 +19649,7 @@
 24,08,Chhattisgarh,68.0
 24,08,Countries_in_Africa,80.0
 24,08,Countries_in_America,9.0
+24,08,Countries_in_Asia_beyond_India,500.0
 24,08,Countries_in_Europe,7.0
 24,08,Countries_in_Oceania,1.0
 24,08,Dadra_and_Nagar_Haveli,0.0
@@ -19583,6 +19759,7 @@
 24,10,Kerala,1833.0
 24,10,Lakshadweep,3.0
 24,10,Last_residence_elsewhere_in_India,635971.0
+24,10,Madhya_Pradesh,2100.0
 24,10,Maharashtra,7511.0
 24,10,Manipur,19.0
 24,10,Meghalaya,5.0
@@ -19680,6 +19857,7 @@
 24,12,Meghalaya,3.0
 24,12,Mizoram,0.0
 24,12,Nagaland,0.0
+24,12,Orissa,100.0
 24,12,Pondicherry,13.0
 24,12,Punjab,138.0
 24,12,Rajasthan,1403.0
@@ -19742,6 +19920,7 @@
 24,14,Andhra_Pradesh,219.0
 24,14,Arunachal_Pradesh,1.0
 24,14,Assam,63.0
+24,14,Bihar,2900.0
 24,14,Chandigarh,118.0
 24,14,Chhattisgarh,167.0
 24,14,Countries_in_Africa,70.0
@@ -19913,6 +20092,7 @@
 24,17,Punjab,120.0
 24,17,Rajasthan,4973.0
 24,17,Sikkim,0.0
+24,17,States_in_India_beyond_the_state_of_enumeration,15004.0
 24,17,Tamil_Nadu,172.0
 24,17,Total,618435.0
 24,17,Tripura,2.0
@@ -19965,6 +20145,7 @@
 24,18,Uttar_Pradesh,1919.0
 24,18,Uttaranchal,15.0
 24,18,West_Bengal,86.0
+24,18,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,400394.0
 24,19,Andaman_and_Nicobar,73.0
 24,19,Andhra_Pradesh,2831.0
 24,19,Arunachal_Pradesh,11.0
@@ -20005,6 +20186,7 @@
 24,19,Sikkim,16.0
 24,19,States_in_India_beyond_the_state_of_enumeration,198217.0
 24,19,Tamil_Nadu,3476.0
+24,19,Total,1550001.0
 24,19,Tripura,117.0
 24,19,Uttar_Pradesh,35349.0
 24,19,Uttaranchal,2058.0
@@ -20255,6 +20437,7 @@
 24,25,Dadra_and_Nagar_Haveli,3575.0
 24,25,Daman_and_Diu,3539.0
 24,25,Delhi,339.0
+24,25,Elsewhere_in_the_district_of_enumeration,420042.0
 24,25,Goa,123.0
 24,25,Gujarat,0.0
 24,25,Haryana,477.0
@@ -20277,6 +20460,7 @@
 24,25,Punjab,444.0
 24,25,Rajasthan,9109.0
 24,25,Sikkim,14.0
+24,25,States_in_India_beyond_the_state_of_enumeration,136300.0
 24,25,Tamil_Nadu,1337.0
 24,25,Total,614543.0
 24,25,Tripura,10.0
@@ -20391,6 +20575,7 @@
 26,01,Dadra_and_Nagar_Haveli,0.0
 26,01,Daman_and_Diu,664.0
 26,01,Delhi,236.0
+26,01,Elsewhere_in_the_district_of_enumeration,10083.0
 26,01,Goa,92.0
 26,01,Gujarat,18671.0
 26,01,Haryana,264.0
@@ -20420,6 +20605,7 @@
 26,01,Uttar_Pradesh,11314.0
 26,01,Uttaranchal,591.0
 26,01,West_Bengal,1215.0
+26,01,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,10083.0
 27,01,Andaman_and_Nicobar,0.0
 27,01,Andhra_Pradesh,382.0
 27,01,Arunachal_Pradesh,0.0
@@ -20465,6 +20651,7 @@
 27,01,Uttar_Pradesh,1291.0
 27,01,Uttaranchal,25.0
 27,01,West_Bengal,223.0
+27,01,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,400727.0
 27,02,Andaman_and_Nicobar,6.0
 27,02,Andhra_Pradesh,1344.0
 27,02,Arunachal_Pradesh,7.0
@@ -20561,6 +20748,7 @@
 27,04,Andhra_Pradesh,1142.0
 27,04,Arunachal_Pradesh,6.0
 27,04,Assam,42.0
+27,04,Bihar,300.0
 27,04,Chandigarh,25.0
 27,04,Chhattisgarh,947.0
 27,04,Countries_in_Africa,10.0
@@ -20638,6 +20826,7 @@
 27,05,Orissa,448.0
 27,05,Pondicherry,1.0
 27,05,Punjab,125.0
+27,05,Rajasthan,2100.0
 27,05,Sikkim,0.0
 27,05,States_in_India_beyond_the_state_of_enumeration,21354.0
 27,05,Tamil_Nadu,239.0
@@ -20671,6 +20860,7 @@
 27,06,Jammu_and_Kashmir,14.0
 27,06,Jharkhand,14.0
 27,06,Karnataka,136.0
+27,06,Kerala,100.0
 27,06,Lakshadweep,0.0
 27,06,Last_residence_elsewhere_in_India,353930.0
 27,06,Madhya_Pradesh,1320.0
@@ -20696,6 +20886,7 @@
 27,07,Andhra_Pradesh,2754.0
 27,07,Arunachal_Pradesh,6.0
 27,07,Assam,77.0
+27,07,Bihar,700.0
 27,07,Chandigarh,44.0
 27,07,Chhattisgarh,5895.0
 27,07,Countries_in_Africa,18.0
@@ -20717,6 +20908,7 @@
 27,07,Karnataka,439.0
 27,07,Kerala,310.0
 27,07,Lakshadweep,0.0
+27,07,Last_residence_elsewhere_in_India,1009303.0
 27,07,Madhya_Pradesh,58233.0
 27,07,Maharashtra,0.0
 27,07,Manipur,33.0
@@ -20817,6 +21009,7 @@
 27,09,Nagaland,56.0
 27,09,Orissa,5969.0
 27,09,Pondicherry,48.0
+27,09,Punjab,5000.0
 27,09,Rajasthan,10398.0
 27,09,Sikkim,32.0
 27,09,States_in_India_beyond_the_state_of_enumeration,421955.0
@@ -21015,6 +21208,7 @@
 27,14,Andhra_Pradesh,15036.0
 27,14,Arunachal_Pradesh,8.0
 27,14,Assam,70.0
+27,14,Bihar,1200.0
 27,14,Chandigarh,32.0
 27,14,Chhattisgarh,7130.0
 27,14,Countries_in_Africa,23.0
@@ -21060,6 +21254,7 @@
 27,15,Andhra_Pradesh,40658.0
 27,15,Arunachal_Pradesh,4.0
 27,15,Assam,57.0
+27,15,Bihar,300.0
 27,15,Chandigarh,23.0
 27,15,Chhattisgarh,78.0
 27,15,Countries_in_Africa,14.0
@@ -21078,6 +21273,7 @@
 27,15,In_other_districts_of_the_state_of_enumeration,160184.0
 27,15,Jammu_and_Kashmir,77.0
 27,15,Jharkhand,56.0
+27,15,Karnataka,10074.0
 27,15,Kerala,235.0
 27,15,Lakshadweep,0.0
 27,15,Last_residence_elsewhere_in_India,892998.0
@@ -21218,6 +21414,7 @@
 27,18,Karnataka,311.0
 27,18,Kerala,46.0
 27,18,Lakshadweep,0.0
+27,18,Last_residence_elsewhere_in_India,545004.0
 27,18,Madhya_Pradesh,689.0
 27,18,Maharashtra,0.0
 27,18,Manipur,1.0
@@ -21344,6 +21541,7 @@
 27,21,Dadra_and_Nagar_Haveli,1019.0
 27,21,Daman_and_Diu,697.0
 27,21,Delhi,11080.0
+27,21,Elsewhere_in_the_district_of_enumeration,1003049.0
 27,21,Goa,6732.0
 27,21,Gujarat,164838.0
 27,21,Haryana,6876.0
@@ -21688,6 +21886,7 @@
 27,28,Punjab,48.0
 27,28,Rajasthan,925.0
 27,28,Sikkim,0.0
+27,28,States_in_India_beyond_the_state_of_enumeration,42007.0
 27,28,Tamil_Nadu,267.0
 27,28,Total,688773.0
 27,28,Tripura,0.0
@@ -21813,6 +22012,8 @@
 27,31,Karnataka,36451.0
 27,31,Kerala,944.0
 27,31,Lakshadweep,0.0
+27,31,Last_residence_elsewhere_in_India,1454900.0
+27,31,Madhya_Pradesh,2005.0
 27,31,Maharashtra,0.0
 27,31,Manipur,26.0
 27,31,Meghalaya,16.0
@@ -21942,6 +22143,7 @@
 27,34,Goa,1363.0
 27,34,Gujarat,4919.0
 27,34,Haryana,156.0
+27,34,Himachal_Pradesh,100.0
 27,34,In_other_districts_of_the_state_of_enumeration,260213.0
 27,34,Jammu_and_Kashmir,227.0
 27,34,Jharkhand,327.0
@@ -21990,6 +22192,7 @@
 27,35,Himachal_Pradesh,27.0
 27,35,In_other_districts_of_the_state_of_enumeration,227345.0
 27,35,Jammu_and_Kashmir,157.0
+27,35,Jharkhand,500.0
 27,35,Karnataka,97543.0
 27,35,Kerala,1297.0
 27,35,Lakshadweep,0.0
@@ -22002,6 +22205,7 @@
 27,35,Nagaland,5.0
 27,35,Orissa,492.0
 27,35,Pondicherry,1.0
+27,35,Punjab,200.0
 27,35,Rajasthan,1829.0
 27,35,Sikkim,7.0
 27,35,States_in_India_beyond_the_state_of_enumeration,114964.0
@@ -22062,6 +22266,7 @@
 28,02,Andhra_Pradesh,0.0
 28,02,Arunachal_Pradesh,6.0
 28,02,Assam,32.0
+28,02,Bihar,200.0
 28,02,Chandigarh,1.0
 28,02,Chhattisgarh,21.0
 28,02,Countries_in_Africa,5.0
@@ -22259,6 +22464,7 @@
 28,06,Elsewhere_in_the_district_of_enumeration,593973.0
 28,06,Goa,147.0
 28,06,Gujarat,2524.0
+28,06,Haryana,1004.0
 28,06,Himachal_Pradesh,207.0
 28,06,In_other_districts_of_the_state_of_enumeration,899901.0
 28,06,Jammu_and_Kashmir,392.0
@@ -22266,6 +22472,7 @@
 28,06,Karnataka,35907.0
 28,06,Kerala,9693.0
 28,06,Lakshadweep,1.0
+28,06,Last_residence_elsewhere_in_India,1624009.0
 28,06,Madhya_Pradesh,2262.0
 28,06,Maharashtra,17784.0
 28,06,Manipur,62.0
@@ -22376,6 +22583,7 @@
 28,08,Uttar_Pradesh,199.0
 28,08,Uttaranchal,1.0
 28,08,West_Bengal,135.0
+28,08,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1050092.0
 28,09,Andaman_and_Nicobar,19.0
 28,09,Andhra_Pradesh,0.0
 28,09,Arunachal_Pradesh,8.0
@@ -22520,6 +22728,7 @@
 28,12,Assam,154.0
 28,12,Bihar,834.0
 28,12,Chandigarh,21.0
+28,12,Chhattisgarh,1005.0
 28,12,Countries_in_Africa,25.0
 28,12,Countries_in_America,3.0
 28,12,Countries_in_Asia_beyond_India,279.0
@@ -22553,6 +22762,7 @@
 28,12,Sikkim,0.0
 28,12,States_in_India_beyond_the_state_of_enumeration,20534.0
 28,12,Tamil_Nadu,898.0
+28,12,Total,636006.0
 28,12,Tripura,1.0
 28,12,Uttar_Pradesh,275.0
 28,12,Uttaranchal,2.0
@@ -22603,6 +22813,7 @@
 28,13,Uttar_Pradesh,3171.0
 28,13,Uttaranchal,221.0
 28,13,West_Bengal,8403.0
+28,13,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1200748.0
 28,14,Andaman_and_Nicobar,222.0
 28,14,Andhra_Pradesh,0.0
 28,14,Arunachal_Pradesh,79.0
@@ -22666,6 +22877,7 @@
 28,15,Delhi,119.0
 28,15,Elsewhere_in_the_district_of_enumeration,1062053.0
 28,15,Goa,18.0
+28,15,Gujarat,200.0
 28,15,Haryana,30.0
 28,15,Himachal_Pradesh,15.0
 28,15,In_other_districts_of_the_state_of_enumeration,260950.0
@@ -22686,12 +22898,14 @@
 28,15,Punjab,42.0
 28,15,Rajasthan,1094.0
 28,15,Sikkim,1.0
+28,15,States_in_India_beyond_the_state_of_enumeration,10300.0
 28,15,Tamil_Nadu,1988.0
 28,15,Total,1333694.0
 28,15,Tripura,1.0
 28,15,Uttar_Pradesh,325.0
 28,15,Uttaranchal,2.0
 28,15,West_Bengal,878.0
+28,15,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1323003.0
 28,16,Andaman_and_Nicobar,34.0
 28,16,Andhra_Pradesh,0.0
 28,16,Arunachal_Pradesh,23.0
@@ -22720,6 +22934,7 @@
 28,16,Lakshadweep,0.0
 28,16,Last_residence_elsewhere_in_India,1497643.0
 28,16,Madhya_Pradesh,377.0
+28,16,Maharashtra,1005.0
 28,16,Manipur,17.0
 28,16,Meghalaya,47.0
 28,16,Mizoram,2.0
@@ -22869,6 +23084,7 @@
 28,19,Sikkim,2.0
 28,19,States_in_India_beyond_the_state_of_enumeration,31569.0
 28,19,Tamil_Nadu,23824.0
+28,19,Total,890091.0
 28,19,Tripura,8.0
 28,19,Uttar_Pradesh,298.0
 28,19,Uttaranchal,6.0
@@ -22897,6 +23113,7 @@
 28,20,In_other_districts_of_the_state_of_enumeration,88994.0
 28,20,Jammu_and_Kashmir,15.0
 28,20,Jharkhand,10.0
+28,20,Karnataka,2300.0
 28,20,Kerala,594.0
 28,20,Lakshadweep,1.0
 28,20,Last_residence_elsewhere_in_India,722221.0
@@ -23003,12 +23220,14 @@
 28,22,Punjab,54.0
 28,22,Rajasthan,989.0
 28,22,Sikkim,15.0
+28,22,States_in_India_beyond_the_state_of_enumeration,100884.0
 28,22,Tamil_Nadu,3855.0
 28,22,Total,891288.0
 28,22,Tripura,1.0
 28,22,Uttar_Pradesh,339.0
 28,22,Uttaranchal,9.0
 28,22,West_Bengal,370.0
+28,22,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,790078.0
 28,23,Andaman_and_Nicobar,23.0
 28,23,Andhra_Pradesh,0.0
 28,23,Arunachal_Pradesh,11.0
@@ -23210,6 +23429,7 @@
 29,04,Delhi,106.0
 29,04,Elsewhere_in_the_district_of_enumeration,515437.0
 29,04,Goa,40.0
+29,04,Gujarat,600.0
 29,04,Haryana,89.0
 29,04,Himachal_Pradesh,90.0
 29,04,In_other_districts_of_the_state_of_enumeration,90736.0
@@ -23230,6 +23450,7 @@
 29,04,Punjab,162.0
 29,04,Rajasthan,950.0
 29,04,Sikkim,2.0
+29,04,States_in_India_beyond_the_state_of_enumeration,69004.0
 29,04,Tamil_Nadu,1106.0
 29,04,Total,675372.0
 29,04,Tripura,3.0
@@ -23482,6 +23703,7 @@
 29,10,Dadra_and_Nagar_Haveli,3.0
 29,10,Daman_and_Diu,3.0
 29,10,Delhi,290.0
+29,10,Elsewhere_in_the_district_of_enumeration,400709.0
 29,10,Goa,4010.0
 29,10,Gujarat,695.0
 29,10,Haryana,135.0
@@ -23490,6 +23712,7 @@
 29,10,Jammu_and_Kashmir,762.0
 29,10,Jharkhand,205.0
 29,10,Karnataka,0.0
+29,10,Kerala,4008.0
 29,10,Lakshadweep,0.0
 29,10,Last_residence_elsewhere_in_India,556032.0
 29,10,Madhya_Pradesh,411.0
@@ -23539,6 +23762,7 @@
 29,11,Lakshadweep,0.0
 29,11,Last_residence_elsewhere_in_India,445556.0
 29,11,Madhya_Pradesh,95.0
+29,11,Maharashtra,700.0
 29,11,Manipur,0.0
 29,11,Meghalaya,0.0
 29,11,Mizoram,0.0
@@ -23692,6 +23916,7 @@
 29,14,Tripura,16.0
 29,14,Uttar_Pradesh,350.0
 29,14,Uttaranchal,23.0
+29,14,West_Bengal,200.0
 29,14,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,486065.0
 29,15,Andaman_and_Nicobar,1.0
 29,15,Andhra_Pradesh,4467.0
@@ -23957,6 +24182,7 @@
 29,20,Mizoram,193.0
 29,20,Nagaland,357.0
 29,20,Orissa,10716.0
+29,20,Pondicherry,3006.0
 29,20,Punjab,4557.0
 29,20,Rajasthan,42403.0
 29,20,Sikkim,231.0
@@ -23967,6 +24193,7 @@
 29,20,Uttar_Pradesh,23694.0
 29,20,Uttaranchal,1340.0
 29,20,West_Bengal,21968.0
+29,20,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,1659008.0
 29,21,Andaman_and_Nicobar,13.0
 29,21,Andhra_Pradesh,10783.0
 29,21,Arunachal_Pradesh,7.0
@@ -24079,6 +24306,7 @@
 29,23,Gujarat,99.0
 29,23,Haryana,35.0
 29,23,Himachal_Pradesh,22.0
+29,23,In_other_districts_of_the_state_of_enumeration,130072.0
 29,23,Jammu_and_Kashmir,26.0
 29,23,Jharkhand,29.0
 29,23,Karnataka,0.0
@@ -24203,6 +24431,7 @@
 29,26,Bihar,808.0
 29,26,Chandigarh,39.0
 29,26,Chhattisgarh,94.0
+29,26,Countries_in_Africa,100.0
 29,26,Countries_in_America,79.0
 29,26,Countries_in_Asia_beyond_India,6449.0
 29,26,Countries_in_Europe,50.0
@@ -24296,6 +24525,7 @@
 30,01,Chhattisgarh,207.0
 30,01,Countries_in_Africa,1276.0
 30,01,Countries_in_America,166.0
+30,01,Countries_in_Asia_beyond_India,3600.0
 30,01,Countries_in_Europe,867.0
 30,01,Countries_in_Oceania,32.0
 30,01,Dadra_and_Nagar_Haveli,34.0
@@ -24577,6 +24807,7 @@
 32,04,Dadra_and_Nagar_Haveli,0.0
 32,04,Daman_and_Diu,3.0
 32,04,Delhi,292.0
+32,04,Elsewhere_in_the_district_of_enumeration,566400.0
 32,04,Goa,74.0
 32,04,Gujarat,836.0
 32,04,Haryana,69.0
@@ -24944,6 +25175,7 @@
 32,12,Dadra_and_Nagar_Haveli,0.0
 32,12,Daman_and_Diu,1.0
 32,12,Delhi,938.0
+32,12,Elsewhere_in_the_district_of_enumeration,251100.0
 32,12,Goa,56.0
 32,12,Gujarat,692.0
 32,12,Haryana,126.0
@@ -24951,6 +25183,7 @@
 32,12,In_other_districts_of_the_state_of_enumeration,162935.0
 32,12,Jammu_and_Kashmir,111.0
 32,12,Jharkhand,166.0
+32,12,Karnataka,1000.0
 32,12,Kerala,0.0
 32,12,Lakshadweep,9.0
 32,12,Last_residence_elsewhere_in_India,432855.0
@@ -25139,6 +25372,7 @@
 33,02,Lakshadweep,14.0
 33,02,Last_residence_elsewhere_in_India,921961.0
 33,02,Madhya_Pradesh,2037.0
+33,02,Maharashtra,14400.0
 33,02,Manipur,188.0
 33,02,Meghalaya,58.0
 33,02,Mizoram,57.0
@@ -25146,6 +25380,7 @@
 33,02,Orissa,2116.0
 33,02,Pondicherry,11088.0
 33,02,Punjab,993.0
+33,02,Rajasthan,20003.0
 33,02,Sikkim,48.0
 33,02,States_in_India_beyond_the_state_of_enumeration,223474.0
 33,02,Tamil_Nadu,0.0
@@ -25267,6 +25502,7 @@
 33,05,Gujarat,221.0
 33,05,Haryana,34.0
 33,05,Himachal_Pradesh,16.0
+33,05,In_other_districts_of_the_state_of_enumeration,100231.0
 33,05,Jammu_and_Kashmir,53.0
 33,05,Jharkhand,52.0
 33,05,Karnataka,32051.0
@@ -25315,6 +25551,7 @@
 33,06,In_other_districts_of_the_state_of_enumeration,57032.0
 33,06,Jammu_and_Kashmir,16.0
 33,06,Jharkhand,8.0
+33,06,Karnataka,2200.0
 33,06,Kerala,386.0
 33,06,Lakshadweep,0.0
 33,06,Last_residence_elsewhere_in_India,306525.0
@@ -25354,6 +25591,7 @@
 33,07,Delhi,171.0
 33,07,Elsewhere_in_the_district_of_enumeration,638736.0
 33,07,Goa,10.0
+33,07,Gujarat,200.0
 33,07,Haryana,3.0
 33,07,Himachal_Pradesh,0.0
 33,07,In_other_districts_of_the_state_of_enumeration,105752.0
@@ -25397,6 +25635,7 @@
 33,08,Dadra_and_Nagar_Haveli,1.0
 33,08,Daman_and_Diu,0.0
 33,08,Delhi,325.0
+33,08,Elsewhere_in_the_district_of_enumeration,547005.0
 33,08,Goa,22.0
 33,08,Gujarat,348.0
 33,08,Haryana,32.0
@@ -25593,6 +25832,7 @@
 33,12,Lakshadweep,3.0
 33,12,Last_residence_elsewhere_in_India,1026716.0
 33,12,Madhya_Pradesh,499.0
+33,12,Maharashtra,2001.0
 33,12,Manipur,15.0
 33,12,Meghalaya,12.0
 33,12,Mizoram,6.0
@@ -25600,6 +25840,7 @@
 33,12,Orissa,117.0
 33,12,Pondicherry,502.0
 33,12,Punjab,115.0
+33,12,Rajasthan,1500.0
 33,12,Sikkim,0.0
 33,12,States_in_India_beyond_the_state_of_enumeration,54556.0
 33,12,Tamil_Nadu,0.0
@@ -25787,6 +26028,7 @@
 33,16,Sikkim,4.0
 33,16,States_in_India_beyond_the_state_of_enumeration,1529.0
 33,16,Tamil_Nadu,0.0
+33,16,Total,140025.0
 33,16,Tripura,0.0
 33,16,Uttar_Pradesh,239.0
 33,16,Uttaranchal,1.0
@@ -25993,8 +26235,10 @@
 33,21,Delhi,63.0
 33,21,Elsewhere_in_the_district_of_enumeration,335398.0
 33,21,Goa,7.0
+33,21,Gujarat,100.0
 33,21,Haryana,10.0
 33,21,Himachal_Pradesh,3.0
+33,21,In_other_districts_of_the_state_of_enumeration,100601.0
 33,21,Jammu_and_Kashmir,23.0
 33,21,Jharkhand,8.0
 33,21,Karnataka,354.0
@@ -26113,6 +26357,7 @@
 33,23,West_Bengal,42.0
 33,23,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,331507.0
 33,24,Andaman_and_Nicobar,61.0
+33,24,Andhra_Pradesh,400.0
 33,24,Arunachal_Pradesh,12.0
 33,24,Assam,29.0
 33,24,Bihar,76.0
@@ -26181,6 +26426,7 @@
 33,25,Jammu_and_Kashmir,7.0
 33,25,Jharkhand,0.0
 33,25,Karnataka,114.0
+33,25,Kerala,1800.0
 33,25,Lakshadweep,0.0
 33,25,Last_residence_elsewhere_in_India,106664.0
 33,25,Madhya_Pradesh,3.0
@@ -26222,6 +26468,7 @@
 33,26,Gujarat,20.0
 33,26,Haryana,7.0
 33,26,Himachal_Pradesh,4.0
+33,26,In_other_districts_of_the_state_of_enumeration,65600.0
 33,26,Jammu_and_Kashmir,11.0
 33,26,Jharkhand,1.0
 33,26,Karnataka,162.0
@@ -26654,6 +26901,7 @@
 35,01,Rajasthan,272.0
 35,01,Sikkim,22.0
 35,01,States_in_India_beyond_the_state_of_enumeration,78758.0
+35,01,Tamil_Nadu,20059.0
 35,01,Total,160768.0
 35,01,Tripura,40.0
 35,01,Uttar_Pradesh,2236.0
@@ -26695,6 +26943,7 @@
 35,02,Nagaland,0.0
 35,02,Orissa,123.0
 35,02,Pondicherry,15.0
+35,02,Punjab,300.0
 35,02,Rajasthan,36.0
 35,02,Sikkim,3.0
 35,02,States_in_India_beyond_the_state_of_enumeration,5622.0
@@ -26704,3 +26953,4 @@
 35,02,Uttar_Pradesh,198.0
 35,02,Uttaranchal,29.0
 35,02,West_Bengal,365.0
+35,02,Within_the_state_of_enumeration_but_outside_the_place_of_enumeration,7600.0
