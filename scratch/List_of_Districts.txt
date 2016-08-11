@@ -209,7 +209,7 @@ Chandrapur, Maharashtra
 Dhule, Maharashtra
 Gadchiroli, Maharashtra
 Gondiya, Maharashtra
-Greater_Bombay, Maharashtra
+Mumbai, Maharashtra
 Hingoli, Maharashtra
 Jalgaon, Maharashtra
 Jalna, Maharashtra

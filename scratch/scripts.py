@@ -52,7 +52,7 @@ def getDirections(address, mode='transit', origin='New Delhi', log=False):
 mode = 'driving' #,'walking','transit'
 executor = ThreadPoolExecutor(max_workers=10)
 
-origins_done = ['Kolkata', 'Delhi', 'Greater_Bombay', 'Bangalore', 'Chennai','Srinagar', 'Kohima', 'Nagpur', 'Gandhinagar']
+origins_done = ['Kolkata', 'Delhi', 'Mumbai', 'Bangalore', 'Chennai','Srinagar', 'Kohima', 'Nagpur', 'Gandhinagar']
 origins = []
 
 for origin_id in origins:

@@ -193,7 +193,7 @@ Gonda,Uttar_Pradesh,09,53
 Gondiya,Maharashtra,27,11
 Gopalganj,Bihar,10,15
 Gorakhpur,Uttar_Pradesh,09,58
-Greater_Bombay,Maharashtra,27,23;27,22
+Mumbai,Maharashtra,27,23;27,22
 Gulbarga,Karnataka,29,04
 Gumla,Jharkhand,20,16
 Guna,Madhya_Pradesh,23,07
